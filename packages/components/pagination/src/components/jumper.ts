@@ -1,5 +1,5 @@
-import { buildProps } from '@element-plus/utils'
-import { componentSizes } from '@element-plus/constants'
+import { buildProps } from '@lkq-element-plus/utils'
+import { componentSizes } from '@lkq-element-plus/constants'
 import type { ExtractPropTypes } from 'vue'
 import type Jumper from './jumper.vue'
 

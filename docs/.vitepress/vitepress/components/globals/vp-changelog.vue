@@ -26,7 +26,7 @@ const onVersionChange = (val) => {
 onMounted(async () => {
   try {
     const { data } = await axios.get<Release[]>(
-      'https://api.github.com/repos/element-plus/element-plus/releases'
+      'https://api.github.com/repos/lkq-element-plus/lkq-element-plus/releases'
     )
     releases.value = data
     currentRelease.value = data[0]

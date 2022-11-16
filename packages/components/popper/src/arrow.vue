@@ -4,8 +4,8 @@
 
 <script lang="ts" setup>
 import { inject, onBeforeUnmount, watch } from 'vue'
-import { useNamespace } from '@element-plus/hooks'
-import { POPPER_CONTENT_INJECTION_KEY } from '@element-plus/tokens'
+import { useNamespace } from '@lkq-element-plus/hooks'
+import { POPPER_CONTENT_INJECTION_KEY } from '@lkq-element-plus/tokens'
 import { popperArrowProps } from './arrow'
 
 defineOptions({

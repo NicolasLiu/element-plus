@@ -13,7 +13,7 @@
 
 <script lang="ts" setup>
 import { ref, watch } from 'vue'
-import { ElTree } from 'element-plus'
+import { ElTree } from 'lkq-element-plus'
 
 interface Tree {
   id: number

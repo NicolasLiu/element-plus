@@ -12,7 +12,7 @@ import {
   epPackage,
   getPackageManifest,
   projRoot,
-} from '@element-plus/build-utils'
+} from '@lkq-element-plus/build-utils'
 
 import type { TaskFunction } from 'gulp'
 import type {
@@ -31,7 +31,7 @@ const reComponentName: ReComponentName = (title) =>
   `el-${hyphenate(title).replace(/[ ]+/g, '-')}`
 
 const reDocUrl: ReDocUrl = (fileName, header) => {
-  const docs = 'https://element-plus.org/en-US/component/'
+  const docs = 'https://lkq-element-plus.org/en-US/component/'
   const _header = header ? header.replaceAll(/\s+/g, '-').toLowerCase() : ''
 
   return `${docs}${fileName}.html${_header ? '#' : ''}${_header}`

@@ -1,6 +1,6 @@
 import { onMounted, ref, shallowRef } from 'vue'
 import { useEventListener, useThrottleFn } from '@vueuse/core'
-import { easeInOutCubic, throwError } from '@element-plus/utils'
+import { easeInOutCubic, throwError } from '@lkq-element-plus/utils'
 
 import type { SetupContext } from 'vue'
 import type { BacktopEmits, BacktopProps } from './backtop'

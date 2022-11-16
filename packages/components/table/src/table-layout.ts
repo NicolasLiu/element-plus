@@ -1,7 +1,7 @@
 // @ts-nocheck
 import { isRef, nextTick, ref } from 'vue'
 import { isClient } from '@vueuse/core'
-import { hasOwn } from '@element-plus/utils'
+import { hasOwn } from '@lkq-element-plus/utils'
 import { parseHeight } from './util'
 import type { Ref } from 'vue'
 

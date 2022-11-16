@@ -89,14 +89,14 @@
 <script lang="ts">
 // @ts-nocheck
 import { computed, defineComponent, getCurrentInstance, ref, watch } from 'vue'
-import ElCheckbox from '@element-plus/components/checkbox'
-import { ElIcon } from '@element-plus/components/icon'
 import { ArrowDown, ArrowUp } from '@element-plus/icons-vue'
-import { ClickOutside } from '@element-plus/directives'
-import { useLocale, useNamespace } from '@element-plus/hooks'
-import ElTooltip from '@element-plus/components/tooltip'
-import ElScrollbar from '@element-plus/components/scrollbar'
-import type { Placement } from '@element-plus/components/popper'
+import ElCheckbox from '@lkq-element-plus/components/checkbox'
+import { ElIcon } from '@lkq-element-plus/components/icon'
+import { ClickOutside } from '@lkq-element-plus/directives'
+import { useLocale, useNamespace } from '@lkq-element-plus/hooks'
+import ElTooltip from '@lkq-element-plus/components/tooltip'
+import ElScrollbar from '@lkq-element-plus/components/scrollbar'
+import type { Placement } from '@lkq-element-plus/components/popper'
 
 import type { PropType, WritableComputedRef } from 'vue'
 import type { TableColumnCtx } from './table-column/defaults'

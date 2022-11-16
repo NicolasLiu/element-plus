@@ -1,7 +1,7 @@
 import { computed, inject, ref } from 'vue'
-import { UPDATE_MODEL_EVENT } from '@element-plus/constants'
-import { radioGroupKey } from '@element-plus/tokens'
-import { useDisabled, useSize } from '@element-plus/hooks'
+import { UPDATE_MODEL_EVENT } from '@lkq-element-plus/constants'
+import { radioGroupKey } from '@lkq-element-plus/tokens'
+import { useDisabled, useSize } from '@lkq-element-plus/hooks'
 import type { SetupContext } from 'vue'
 import type { RadioEmits, RadioProps } from './radio'
 

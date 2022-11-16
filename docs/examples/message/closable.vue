@@ -6,7 +6,7 @@
 </template>
 
 <script lang="ts" setup>
-import { ElMessage } from 'element-plus'
+import { ElMessage } from 'lkq-element-plus'
 
 const open1 = () => {
   ElMessage({

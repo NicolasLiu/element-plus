@@ -80,18 +80,18 @@
 <script lang="ts" setup>
 import { computed, nextTick, onMounted, ref, unref, watch } from 'vue'
 import { debounce } from 'lodash-unified'
-import { vRepeatClick } from '@element-plus/directives'
-import ElScrollbar from '@element-plus/components/scrollbar'
-import ElIcon from '@element-plus/components/icon'
 import { ArrowDown, ArrowUp } from '@element-plus/icons-vue'
-import { useNamespace } from '@element-plus/hooks'
+import { vRepeatClick } from '@lkq-element-plus/directives'
+import ElScrollbar from '@lkq-element-plus/components/scrollbar'
+import ElIcon from '@lkq-element-plus/components/icon'
+import { useNamespace } from '@lkq-element-plus/hooks'
 import { timeUnits } from '../constants'
 import { buildTimeList } from '../utils'
 import { basicTimeSpinnerProps } from '../props/basic-time-spinner'
 import { getTimeLists } from '../composables/use-time-picker'
 
 import type { Ref } from 'vue'
-import type { ScrollbarInstance } from '@element-plus/components/scrollbar'
+import type { ScrollbarInstance } from '@lkq-element-plus/components/scrollbar'
 import type { TimeUnit } from '../constants'
 import type { TimeList } from '../utils'
 

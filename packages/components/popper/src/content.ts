@@ -1,9 +1,9 @@
 import { placements } from '@popperjs/core'
-import { buildProps, definePropType } from '@element-plus/utils'
+import { buildProps, definePropType } from '@lkq-element-plus/utils'
 
 import type { ExtractPropTypes, StyleValue } from 'vue'
 import type { Options, Placement } from '@popperjs/core'
-import type { Measurable } from '@element-plus/tokens'
+import type { Measurable } from '@lkq-element-plus/tokens'
 import type Content from './content.vue'
 
 type ClassObjectType = Record<string, boolean>

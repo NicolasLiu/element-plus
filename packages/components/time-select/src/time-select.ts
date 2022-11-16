@@ -1,6 +1,6 @@
-import { buildProps, definePropType } from '@element-plus/utils'
 import { CircleClose, Clock } from '@element-plus/icons-vue'
-import { useSizeProp } from '@element-plus/hooks'
+import { buildProps, definePropType } from '@lkq-element-plus/utils'
+import { useSizeProp } from '@lkq-element-plus/hooks'
 import type TimeSelect from './time-select.vue'
 import type { Component, ExtractPropTypes, PropType } from 'vue'
 

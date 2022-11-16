@@ -76,7 +76,7 @@
 <script lang="ts" setup>
 import { computed, ref, watchEffect } from 'vue'
 import { DArrowLeft, DArrowRight, MoreFilled } from '@element-plus/icons-vue'
-import { useNamespace } from '@element-plus/hooks'
+import { useNamespace } from '@lkq-element-plus/hooks'
 import { paginationPagerProps } from './pager'
 defineOptions({
   name: 'ElPaginationPager',

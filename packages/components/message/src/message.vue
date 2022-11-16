@@ -46,14 +46,14 @@
 <script lang="ts" setup>
 import { computed, onMounted, ref, watch } from 'vue'
 import { useEventListener, useResizeObserver, useTimeoutFn } from '@vueuse/core'
-import { TypeComponents, TypeComponentsMap } from '@element-plus/utils'
-import { EVENT_CODE } from '@element-plus/constants'
-import ElBadge from '@element-plus/components/badge'
-import { ElIcon } from '@element-plus/components/icon'
-import { useNamespace } from '@element-plus/hooks'
+import { TypeComponents, TypeComponentsMap } from '@lkq-element-plus/utils'
+import { EVENT_CODE } from '@lkq-element-plus/constants'
+import ElBadge from '@lkq-element-plus/components/badge'
+import { ElIcon } from '@lkq-element-plus/components/icon'
+import { useNamespace } from '@lkq-element-plus/hooks'
 import { messageEmits, messageProps } from './message'
 import { getLastOffset } from './instance'
-import type { BadgeProps } from '@element-plus/components/badge'
+import type { BadgeProps } from '@lkq-element-plus/components/badge'
 import type { CSSProperties } from 'vue'
 
 const { Close } = TypeComponents

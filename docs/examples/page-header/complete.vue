@@ -61,7 +61,7 @@
 </template>
 
 <script setup lang="ts">
-import { ElNotification as notify } from 'element-plus'
+import { ElNotification as notify } from 'lkq-element-plus'
 
 const onBack = () => {
   notify('Back')

@@ -1,6 +1,6 @@
 import fs from 'fs'
 import path from 'path'
-import { vpRoot } from '@element-plus/build-utils'
+import { vpRoot } from '@lkq-element-plus/build-utils'
 import { languages } from '../utils/lang'
 
 import type { HeadConfig } from 'vitepress'
@@ -10,7 +10,7 @@ export const head: HeadConfig[] = [
     'link',
     {
       rel: 'icon',
-      href: '/images/element-plus-logo-small.svg',
+      href: '/images/lkq-element-plus-logo-small.svg',
       type: 'image/svg+xm',
     },
   ],

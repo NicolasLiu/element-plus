@@ -5,7 +5,7 @@
 ## Usage
 
 ```
-const elementPlus = require('element-plus');
+const elementPlus = require('lkq-element-plus');
 
 // TODO: DEMONSTRATE API
 ```

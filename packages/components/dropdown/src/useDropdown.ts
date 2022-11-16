@@ -1,9 +1,9 @@
 // @ts-nocheck
 import { computed, inject, ref } from 'vue'
-import { addClass, generateId } from '@element-plus/utils'
-import { EVENT_CODE } from '@element-plus/constants'
-import { useNamespace } from '@element-plus/hooks'
-import type { Nullable } from '@element-plus/utils'
+import { addClass, generateId } from '@lkq-element-plus/utils'
+import { EVENT_CODE } from '@lkq-element-plus/constants'
+import { useNamespace } from '@lkq-element-plus/hooks'
+import type { Nullable } from '@lkq-element-plus/utils'
 import type { IElDropdownInstance } from './dropdown'
 
 export const useDropdown = () => {

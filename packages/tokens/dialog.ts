@@ -1,5 +1,5 @@
 import type { CSSProperties, ComputedRef, InjectionKey, Ref } from 'vue'
-import type { useNamespace } from '@element-plus/hooks'
+import type { useNamespace } from '@lkq-element-plus/hooks'
 
 export type DialogContext = {
   dialogRef: Ref<HTMLElement | undefined>

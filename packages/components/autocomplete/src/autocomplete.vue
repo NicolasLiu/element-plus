@@ -106,23 +106,23 @@ import {
 import { debounce } from 'lodash-unified'
 import { onClickOutside } from '@vueuse/core'
 import { Loading } from '@element-plus/icons-vue'
-import { useAttrs, useDisabled, useNamespace } from '@element-plus/hooks'
-import { generateId, isArray, throwError } from '@element-plus/utils'
+import { useAttrs, useDisabled, useNamespace } from '@lkq-element-plus/hooks'
+import { generateId, isArray, throwError } from '@lkq-element-plus/utils'
 import {
   CHANGE_EVENT,
   INPUT_EVENT,
   UPDATE_MODEL_EVENT,
-} from '@element-plus/constants'
-import ElInput from '@element-plus/components/input'
-import ElScrollbar from '@element-plus/components/scrollbar'
-import ElTooltip from '@element-plus/components/tooltip'
-import ElIcon from '@element-plus/components/icon'
+} from '@lkq-element-plus/constants'
+import ElInput from '@lkq-element-plus/components/input'
+import ElScrollbar from '@lkq-element-plus/components/scrollbar'
+import ElTooltip from '@lkq-element-plus/components/tooltip'
+import ElIcon from '@lkq-element-plus/components/icon'
 import { autocompleteEmits, autocompleteProps } from './autocomplete'
 import type { AutocompleteData } from './autocomplete'
 
 import type { StyleValue } from 'vue'
-import type { TooltipInstance } from '@element-plus/components/tooltip'
-import type { InputInstance } from '@element-plus/components/input'
+import type { TooltipInstance } from '@lkq-element-plus/components/tooltip'
+import type { InputInstance } from '@lkq-element-plus/components/input'
 
 const COMPONENT_NAME = 'ElAutocomplete'
 defineOptions({
@@ -249,7 +249,7 @@ const handleFocus = (evt: FocusEvent) => {
 
   activated.value = true
   emit('focus', evt)
-  // fix https://github.com/element-plus/element-plus/issues/8278
+  // fix https://github.com/lkq-element-plus/lkq-element-plus/issues/8278
   if (props.triggerOnFocus && !readonly) {
     debouncedGetData(String(props.modelValue))
   }

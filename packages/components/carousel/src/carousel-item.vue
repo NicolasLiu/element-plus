@@ -19,7 +19,7 @@
 
 <script lang="ts" setup>
 import { computed, unref } from 'vue'
-import { useNamespace } from '@element-plus/hooks'
+import { useNamespace } from '@lkq-element-plus/hooks'
 import { carouselItemProps } from './carousel-item'
 import { useCarouselItem } from './use-carousel-item'
 

@@ -15,7 +15,7 @@
 
 <script lang="ts" setup>
 import { computed } from 'vue'
-import { ElIcon } from '@element-plus/components/icon'
+import { ElIcon } from '@lkq-element-plus/components/icon'
 import { paginationNextProps } from './next'
 
 defineOptions({

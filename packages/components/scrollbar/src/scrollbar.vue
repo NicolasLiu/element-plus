@@ -34,9 +34,9 @@ import {
   watch,
 } from 'vue'
 import { useEventListener, useResizeObserver } from '@vueuse/core'
-import { addUnit, debugWarn, isNumber, isObject } from '@element-plus/utils'
-import { scrollbarContextKey } from '@element-plus/tokens'
-import { useNamespace } from '@element-plus/hooks'
+import { addUnit, debugWarn, isNumber, isObject } from '@lkq-element-plus/utils'
+import { scrollbarContextKey } from '@lkq-element-plus/tokens'
+import { useNamespace } from '@lkq-element-plus/hooks'
 import { GAP } from './util'
 import Bar from './bar.vue'
 import { scrollbarEmits, scrollbarProps } from './scrollbar'

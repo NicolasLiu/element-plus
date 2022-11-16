@@ -1,5 +1,5 @@
-import { buildProps, definePropType } from '@element-plus/utils'
-import { virtualizedGridProps } from '@element-plus/components/virtual-list'
+import { buildProps, definePropType } from '@lkq-element-plus/utils'
+import { virtualizedGridProps } from '@lkq-element-plus/components/virtual-list'
 import { columns, expandColumnKey, rowKey } from './common'
 
 import type { CSSProperties, ExtractPropTypes } from 'vue'

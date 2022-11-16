@@ -1,15 +1,15 @@
-import { componentSizes } from '@element-plus/constants'
+import { componentSizes } from '@lkq-element-plus/constants'
 import {
   buildProps,
   definePropType,
   isArray,
   isBoolean,
   isString,
-} from '@element-plus/utils'
+} from '@lkq-element-plus/utils'
 
 import type { ExtractPropTypes } from 'vue'
 import type { FormItemProp } from './form-item'
-import type { FormRules } from '@element-plus/tokens'
+import type { FormRules } from '@lkq-element-plus/tokens'
 
 export const formProps = buildProps({
   model: Object,

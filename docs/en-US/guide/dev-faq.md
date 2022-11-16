@@ -19,7 +19,7 @@ pnpm i
 ```shell
 # get dist
 pnpm build
-cd dist/element-plus
+cd dist/lkq-element-plus
 # set cur element-plus to global `node_modules`
 pnpm link --global
 # for esm we also need link element-plus for dist
@@ -38,4 +38,4 @@ We should not write Chinese comments in scss files.
 
 It will generate warning `@charset "UTF-8";` in the header of css file when built with vite.
 
-> More info see [#3219](https://github.com/element-plus/element-plus/issues/3219).
+> More info see [#3219](https://github.com/lkq-element-plus/lkq-element-plus/issues/3219).

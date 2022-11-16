@@ -1,12 +1,12 @@
 import { defineComponent, nextTick, ref } from 'vue'
 import { mount } from '@vue/test-utils'
 import { describe, expect, test, vi } from 'vitest'
-import { EVENT_CODE } from '@element-plus/constants'
+import { EVENT_CODE } from '@lkq-element-plus/constants'
 import Tabs from '../src/tabs'
 import TabPane from '../src/tab-pane.vue'
 import TabNav from '../src/tab-nav'
 import type { TabPaneName } from '../src/tabs'
-import type { TabsPaneContext } from '@element-plus/tokens'
+import type { TabsPaneContext } from '@lkq-element-plus/tokens'
 
 const Comp = defineComponent({
   components: {

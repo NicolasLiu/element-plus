@@ -3,10 +3,10 @@ import {
   CHANGE_EVENT,
   INPUT_EVENT,
   UPDATE_MODEL_EVENT,
-} from '@element-plus/constants'
-import { useFormItem } from '@element-plus/hooks'
+} from '@lkq-element-plus/constants'
+import { useFormItem } from '@lkq-element-plus/hooks'
 import type { CSSProperties, Ref, SetupContext } from 'vue'
-import type { Arrayable } from '@element-plus/utils'
+import type { Arrayable } from '@lkq-element-plus/utils'
 import type { SliderEmits, SliderInitData, SliderProps } from '../slider'
 import type { ButtonRefs, SliderButtonInstance } from '../button'
 

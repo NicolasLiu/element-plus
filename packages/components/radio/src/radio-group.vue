@@ -22,15 +22,15 @@ import {
   toRefs,
   watch,
 } from 'vue'
-import { UPDATE_MODEL_EVENT } from '@element-plus/constants'
-import { radioGroupKey } from '@element-plus/tokens'
+import { UPDATE_MODEL_EVENT } from '@lkq-element-plus/constants'
+import { radioGroupKey } from '@lkq-element-plus/tokens'
 import {
   useFormItem,
   useFormItemInputId,
   useId,
   useNamespace,
-} from '@element-plus/hooks'
-import { debugWarn } from '@element-plus/utils'
+} from '@lkq-element-plus/hooks'
+import { debugWarn } from '@lkq-element-plus/utils'
 import { radioGroupEmits, radioGroupProps } from './radio-group'
 import type { RadioGroupProps } from '..'
 

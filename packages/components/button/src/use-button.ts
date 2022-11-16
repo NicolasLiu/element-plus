@@ -5,8 +5,8 @@ import {
   useFormItem,
   useGlobalConfig,
   useSize,
-} from '@element-plus/hooks'
-import { buttonGroupContextKey } from '@element-plus/tokens'
+} from '@lkq-element-plus/hooks'
+import { buttonGroupContextKey } from '@lkq-element-plus/tokens'
 
 import type { SetupContext } from 'vue'
 import type { ButtonEmits, ButtonProps } from './button'
@@ -21,7 +21,7 @@ export const useButton = (
       replacement: 'link',
       version: '3.0.0',
       scope: 'props',
-      ref: 'https://element-plus.org/en-US/component/button.html#button-attributes',
+      ref: 'https://lkq-element-plus.org/en-US/component/button.html#button-attributes',
     },
     computed(() => props.type === 'text')
   )

@@ -5,7 +5,7 @@
 </template>
 <script lang="ts" setup>
 import { computed, useSlots } from 'vue'
-import { useNamespace } from '@element-plus/hooks'
+import { useNamespace } from '@lkq-element-plus/hooks'
 
 import type { Component, VNode } from 'vue'
 

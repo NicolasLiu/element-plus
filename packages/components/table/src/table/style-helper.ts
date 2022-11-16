@@ -9,7 +9,7 @@ import {
   watchEffect,
 } from 'vue'
 import { useEventListener, useResizeObserver } from '@vueuse/core'
-import { useSize } from '@element-plus/hooks'
+import { useSize } from '@lkq-element-plus/hooks'
 
 import type { Table, TableProps } from './defaults'
 import type { Store } from '../store'

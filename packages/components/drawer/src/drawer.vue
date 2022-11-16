@@ -83,12 +83,12 @@
 import { computed, defineComponent, ref } from 'vue'
 import { Close } from '@element-plus/icons-vue'
 
-import { ElOverlay } from '@element-plus/components/overlay'
-import ElFocusTrap from '@element-plus/components/focus-trap'
-import { useDialog } from '@element-plus/components/dialog'
-import { addUnit } from '@element-plus/utils'
-import ElIcon from '@element-plus/components/icon'
-import { useDeprecated, useLocale, useNamespace } from '@element-plus/hooks'
+import { ElOverlay } from '@lkq-element-plus/components/overlay'
+import ElFocusTrap from '@lkq-element-plus/components/focus-trap'
+import { useDialog } from '@lkq-element-plus/components/dialog'
+import { addUnit } from '@lkq-element-plus/utils'
+import ElIcon from '@lkq-element-plus/components/icon'
+import { useDeprecated, useLocale, useNamespace } from '@lkq-element-plus/hooks'
 import { drawerEmits, drawerProps } from './drawer'
 
 export default defineComponent({
@@ -109,7 +109,7 @@ export default defineComponent({
         from: 'the title slot',
         replacement: 'the header slot',
         version: '3.0.0',
-        ref: 'https://element-plus.org/en-US/component/drawer.html#slots',
+        ref: 'https://lkq-element-plus.org/en-US/component/drawer.html#slots',
       },
       computed(() => !!slots.title)
     )

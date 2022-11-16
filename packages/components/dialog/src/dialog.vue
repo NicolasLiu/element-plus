@@ -72,10 +72,14 @@
 
 <script lang="ts" setup>
 import { computed, provide, ref, useSlots } from 'vue'
-import { ElOverlay } from '@element-plus/components/overlay'
-import { useDeprecated, useNamespace, useSameTarget } from '@element-plus/hooks'
-import { dialogInjectionKey } from '@element-plus/tokens'
-import ElFocusTrap from '@element-plus/components/focus-trap'
+import { ElOverlay } from '@lkq-element-plus/components/overlay'
+import {
+  useDeprecated,
+  useNamespace,
+  useSameTarget,
+} from '@lkq-element-plus/hooks'
+import { dialogInjectionKey } from '@lkq-element-plus/tokens'
+import ElFocusTrap from '@lkq-element-plus/components/focus-trap'
 import ElDialogContent from './dialog-content.vue'
 import { dialogEmits, dialogProps } from './dialog'
 import { useDialog } from './use-dialog'
@@ -95,7 +99,7 @@ useDeprecated(
     from: 'the title slot',
     replacement: 'the header slot',
     version: '3.0.0',
-    ref: 'https://element-plus.org/en-US/component/dialog.html#slots',
+    ref: 'https://lkq-element-plus.org/en-US/component/dialog.html#slots',
   },
   computed(() => !!slots.title)
 )
@@ -106,7 +110,7 @@ useDeprecated(
     from: 'custom-class',
     replacement: 'class',
     version: '2.3.0',
-    ref: 'https://element-plus.org/en-US/component/dialog.html#attributes',
+    ref: 'https://lkq-element-plus.org/en-US/component/dialog.html#attributes',
     type: 'Attribute',
   },
   computed(() => !!props.customClass)

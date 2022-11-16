@@ -1,6 +1,6 @@
 import path from 'path'
-import { PKG_NAME } from '@element-plus/build-constants'
-import { epOutput } from '@element-plus/build-utils'
+import { PKG_NAME } from '@lkq-element-plus/build-constants'
+import { epOutput } from '@lkq-element-plus/build-utils'
 
 import type { ModuleFormat } from 'rollup'
 
@@ -13,7 +13,7 @@ export interface BuildInfo {
   output: {
     /** e.g: `es` */
     name: string
-    /** e.g: `dist/element-plus/es` */
+    /** e.g: `dist/lkq-element-plus/es` */
     path: string
   }
 

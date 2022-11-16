@@ -1,6 +1,6 @@
 import type { Arrayable } from '../utils/typescript'
 import type { InjectionKey, Ref } from 'vue'
-import type { TooltipTriggerType } from '@element-plus/components/tooltip'
+import type { TooltipTriggerType } from '@lkq-element-plus/components/tooltip'
 
 export type ElTooltipInjectionContext = {
   controlled: Ref<boolean>

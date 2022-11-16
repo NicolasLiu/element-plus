@@ -48,9 +48,9 @@
 <script lang="ts" setup>
 import { computed, inject, onBeforeUnmount, ref, unref, watch } from 'vue'
 import { onClickOutside } from '@vueuse/core'
-import { composeEventHandlers } from '@element-plus/utils'
-import { ElPopperContent } from '@element-plus/components/popper'
-import { TOOLTIP_INJECTION_KEY } from '@element-plus/tokens'
+import { composeEventHandlers } from '@lkq-element-plus/utils'
+import { ElPopperContent } from '@lkq-element-plus/components/popper'
+import { TOOLTIP_INJECTION_KEY } from '@lkq-element-plus/tokens'
 import { useTooltipContentProps } from './content'
 
 defineOptions({

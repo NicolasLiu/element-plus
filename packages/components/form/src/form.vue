@@ -6,20 +6,20 @@
 
 <script lang="ts" setup>
 import { computed, provide, reactive, toRefs, watch } from 'vue'
-import { debugWarn, isFunction } from '@element-plus/utils'
-import { formContextKey } from '@element-plus/tokens'
-import { useNamespace, useSize } from '@element-plus/hooks'
+import { debugWarn, isFunction } from '@lkq-element-plus/utils'
+import { formContextKey } from '@lkq-element-plus/tokens'
+import { useNamespace, useSize } from '@lkq-element-plus/hooks'
 import { formEmits, formProps } from './form'
 import { filterFields, useFormLabelWidth } from './utils'
 
 import type { ValidateFieldsError } from 'async-validator'
-import type { Arrayable } from '@element-plus/utils'
+import type { Arrayable } from '@lkq-element-plus/utils'
 import type {
   FormContext,
   FormItemContext,
   FormValidateCallback,
   FormValidationResult,
-} from '@element-plus/tokens'
+} from '@lkq-element-plus/tokens'
 import type { FormItemProp } from './form-item'
 
 const COMPONENT_NAME = 'ElForm'

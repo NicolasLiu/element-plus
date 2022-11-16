@@ -1,6 +1,6 @@
 import consola from 'consola'
-import { REPO_BRANCH, REPO_PATH } from '@element-plus/build-constants'
-import { docsDirName } from '@element-plus/build-utils'
+import { REPO_BRANCH, REPO_PATH } from '@lkq-element-plus/build-constants'
+import { docsDirName } from '@lkq-element-plus/build-utils'
 import { languages } from './utils/lang'
 import { features, head, mdPlugin, nav, sidebars } from './config'
 import type { UserConfig } from 'vitepress'
@@ -55,8 +55,8 @@ export const config: UserConfig = {
     editLinkText: 'Edit this page on GitHub',
     lastUpdated: 'Last Updated',
 
-    logo: '/images/element-plus-logo.svg',
-    logoSmall: '/images/element-plus-logo-small.svg',
+    logo: '/images/lkq-element-plus-logo.svg',
+    logoSmall: '/images/lkq-element-plus-logo-small.svg',
     sidebars,
     nav,
     agolia: {

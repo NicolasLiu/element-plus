@@ -21,8 +21,8 @@
 <script lang="ts" setup>
 import { computed, ref, watch } from 'vue'
 import { isEqual } from 'lodash-unified'
-import { ElOption, ElSelect } from '@element-plus/components/select'
-import { useLocale, useNamespace } from '@element-plus/hooks'
+import { ElOption, ElSelect } from '@lkq-element-plus/components/select'
+import { useLocale, useNamespace } from '@lkq-element-plus/hooks'
 import { usePagination } from '../usePagination'
 import { paginationSizesProps } from './sizes'
 

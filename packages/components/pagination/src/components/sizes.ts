@@ -1,5 +1,5 @@
-import { buildProps, definePropType, mutable } from '@element-plus/utils'
-import { componentSizes } from '@element-plus/constants'
+import { buildProps, definePropType, mutable } from '@lkq-element-plus/utils'
+import { componentSizes } from '@lkq-element-plus/constants'
 import type { ExtractPropTypes } from 'vue'
 import type Sizes from './sizes.vue'
 

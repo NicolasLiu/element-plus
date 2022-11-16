@@ -19,9 +19,9 @@
 
 <script lang="ts" setup>
 import { getCurrentInstance, inject, ref, toRefs } from 'vue'
-import ElIcon from '@element-plus/components/icon'
-import { breadcrumbKey } from '@element-plus/tokens'
-import { useNamespace } from '@element-plus/hooks'
+import ElIcon from '@lkq-element-plus/components/icon'
+import { breadcrumbKey } from '@lkq-element-plus/tokens'
+import { useNamespace } from '@lkq-element-plus/hooks'
 import { breadcrumbItemProps } from './breadcrumb-item'
 
 import type { Router } from 'vue-router'

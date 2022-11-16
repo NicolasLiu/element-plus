@@ -10,8 +10,8 @@ import {
   onMounted,
   ref,
 } from 'vue'
-import ElCheckbox from '@element-plus/components/checkbox'
-import { isString } from '@element-plus/utils'
+import ElCheckbox from '@lkq-element-plus/components/checkbox'
+import { isString } from '@lkq-element-plus/utils'
 import { cellStarts } from '../config'
 import { compose, mergeOptions } from '../util'
 import useWatcher from './watcher-helper'

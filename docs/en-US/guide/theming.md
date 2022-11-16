@@ -15,13 +15,13 @@ We provide four ways to change the style variables.
 
 These are examples about custom theme.
 
-- Full import: [element-plus-vite-starter](https://github.com/element-plus/element-plus-vite-starter)
-- On demand: [unplugin-element-plus/examples/vite](https://github.com/element-plus/unplugin-element-plus)
+- Full import: [element-plus-vite-starter](https://github.com/lkq-element-plus/lkq-element-plus-vite-starter)
+- On demand: [unplugin-element-plus/examples/vite](https://github.com/lkq-element-plus/unplugin-element-plus)
 
 ### By SCSS variables
 
 `theme-chalk` is written in SCSS.
-You can find SCSS variables in [`packages/theme-chalk/src/common/var.scss`](https://github.com/element-plus/element-plus/blob/dev/packages/theme-chalk/src/common/var.scss).
+You can find SCSS variables in [`packages/theme-chalk/src/common/var.scss`](https://github.com/lkq-element-plus/lkq-element-plus/blob/dev/packages/theme-chalk/src/common/var.scss).
 
 :::warning
 
@@ -33,7 +33,7 @@ For example, We use `$colors` as a map to preserve different types of colors.
 
 `$notification` is a map where all variables of the `notification` component at.
 
-In the future, we will write documentation for variables that can be customized for each component. You can also directly checkout the source [var.scss](https://github.com/element-plus/element-plus/blob/dev/packages/theme-chalk/src/common/var.scss).
+In the future, we will write documentation for variables that can be customized for each component. You can also directly checkout the source [var.scss](https://github.com/lkq-element-plus/lkq-element-plus/blob/dev/packages/theme-chalk/src/common/var.scss).
 
 :::
 
@@ -83,7 +83,7 @@ Because the sass team said they will remove `@import` eventually.
 ```scss
 // styles/element/index.scss
 /* just override what you need */
-@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+@forward 'lkq-element-plus/theme-chalk/src/common/var.scss' with (
   $colors: (
     'primary': (
       'base': green,
@@ -93,7 +93,7 @@ Because the sass team said they will remove `@import` eventually.
 
 // If you just import on demand, you can ignore the following content.
 // if you want to import all styles:
-// @use "element-plus/theme-chalk/src/index.scss" as *;
+// @use "lkq-element-plus/theme-chalk/src/index.scss" as *;
 ```
 
 Then in the entry file of your project, import this style file instead of Element's built CSS:
@@ -116,7 +116,7 @@ If they are mixed together, each hot update of `element-plus` needs to compile a
 ```ts
 import { createApp } from 'vue'
 import './styles/element/index.scss'
-import ElementPlus from 'element-plus'
+import ElementPlus from 'lkq-element-plus'
 import App from './App.vue'
 
 const app = createApp(App)

@@ -50,13 +50,17 @@
 </template>
 <script lang="ts" setup>
 import { computed, inject, markRaw, ref, watch } from 'vue'
-import { EVENT_CODE, UPDATE_MODEL_EVENT } from '@element-plus/constants'
-import { hasClass, isArray, isObject, isString } from '@element-plus/utils'
-import { formContextKey, formItemContextKey } from '@element-plus/tokens'
-import { ElIcon } from '@element-plus/components/icon'
-import { useFormItemInputId, useNamespace, useSize } from '@element-plus/hooks'
+import { EVENT_CODE, UPDATE_MODEL_EVENT } from '@lkq-element-plus/constants'
+import { hasClass, isArray, isObject, isString } from '@lkq-element-plus/utils'
+import { formContextKey, formItemContextKey } from '@lkq-element-plus/tokens'
+import { ElIcon } from '@lkq-element-plus/components/icon'
+import {
+  useFormItemInputId,
+  useNamespace,
+  useSize,
+} from '@lkq-element-plus/hooks'
 import { rateEmits, rateProps } from './rate'
-import type { iconPropType } from '@element-plus/utils'
+import type { iconPropType } from '@lkq-element-plus/utils'
 import type { CSSProperties, Component } from 'vue'
 
 function getValueFromMap<T>(
@@ -253,7 +257,7 @@ function setCurrentValue(value: number, event: MouseEvent) {
     return
   }
   if (props.allowHalf) {
-    // TODO: use cache via computed https://github.com/element-plus/element-plus/pull/5456#discussion_r786472092
+    // TODO: use cache via computed https://github.com/lkq-element-plus/lkq-element-plus/pull/5456#discussion_r786472092
     let target = event.target as HTMLElement
     if (hasClass(target, ns.e('item'))) {
       target = target.querySelector(`.${ns.e('icon')}`)!

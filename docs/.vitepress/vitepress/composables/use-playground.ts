@@ -9,7 +9,7 @@ export const usePlayground = (source: string) => {
   }
 
   const encoded = utoa(JSON.stringify(originCode))
-  const link = `https://element-plus.run/#${encoded}`
+  const link = `https://lkq-element-plus.run/#${encoded}`
   return {
     encoded,
     link,

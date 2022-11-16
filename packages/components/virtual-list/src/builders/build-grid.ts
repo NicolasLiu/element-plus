@@ -16,8 +16,8 @@ import {
   hasOwn,
   isNumber,
   isString,
-} from '@element-plus/utils'
-import { useNamespace } from '@element-plus/hooks'
+} from '@lkq-element-plus/utils'
+import { useNamespace } from '@lkq-element-plus/hooks'
 import Scrollbar from '../components/scrollbar'
 import { useGridWheel } from '../hooks/use-grid-wheel'
 import { useCache } from '../hooks/use-cache'

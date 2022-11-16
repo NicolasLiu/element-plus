@@ -63,11 +63,11 @@
 <script lang="ts">
 // @ts-nocheck
 import { computed, defineComponent, inject } from 'vue'
-import ElCheckbox from '@element-plus/components/checkbox'
-import ElRadio from '@element-plus/components/radio'
-import ElIcon from '@element-plus/components/icon'
-import { useNamespace } from '@element-plus/hooks'
 import { ArrowRight, Check, Loading } from '@element-plus/icons-vue'
+import ElCheckbox from '@lkq-element-plus/components/checkbox'
+import ElRadio from '@lkq-element-plus/components/radio'
+import ElIcon from '@lkq-element-plus/components/icon'
+import { useNamespace } from '@lkq-element-plus/hooks'
 import NodeContent from './node-content'
 import { CASCADER_PANEL_INJECTION_KEY } from './types'
 import type { default as CascaderNode } from './node'

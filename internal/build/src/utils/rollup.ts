@@ -1,4 +1,7 @@
-import { epPackage, getPackageDependencies } from '@element-plus/build-utils'
+import {
+  epPackage,
+  getPackageDependencies,
+} from '@lkq-element-plus/build-utils'
 
 import type { OutputOptions, RollupBuild } from 'rollup'
 

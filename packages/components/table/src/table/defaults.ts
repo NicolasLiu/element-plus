@@ -6,7 +6,7 @@ import type {
   Ref,
   VNode,
 } from 'vue'
-import type { Nullable } from '@element-plus/utils'
+import type { Nullable } from '@lkq-element-plus/utils'
 import type { Store } from '../store'
 import type { TableColumnCtx } from '../table-column/defaults'
 import type TableLayout from '../table-layout'

@@ -310,11 +310,11 @@
 
 <script lang="ts">
 import { defineComponent, provide, reactive, toRefs, vModelText } from 'vue'
-import { ClickOutside } from '@element-plus/directives'
-import ElTooltip from '@element-plus/components/tooltip'
-import ElTag from '@element-plus/components/tag'
-import ElIcon from '@element-plus/components/icon'
-import { CHANGE_EVENT, UPDATE_MODEL_EVENT } from '@element-plus/constants'
+import { ClickOutside } from '@lkq-element-plus/directives'
+import ElTooltip from '@lkq-element-plus/components/tooltip'
+import ElTag from '@lkq-element-plus/components/tag'
+import ElIcon from '@lkq-element-plus/components/icon'
+import { CHANGE_EVENT, UPDATE_MODEL_EVENT } from '@lkq-element-plus/constants'
 import ElSelectMenu from './select-dropdown'
 import useSelect from './useSelect'
 import { selectV2InjectionKey } from './token'

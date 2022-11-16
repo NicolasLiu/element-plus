@@ -27,7 +27,7 @@ the project will launch website for you to preview all existing component.
 
 ## Local development
 
-See [Local development guide](https://github.com/element-plus/element-plus/blob/dev/CONTRIBUTING.md)
+See [Local development guide](https://github.com/lkq-element-plus/lkq-element-plus/blob/dev/CONTRIBUTING.md)
 
 1. With command
 
@@ -48,7 +48,7 @@ will start the local development environment.
 
 <script setup lang="ts">
 // make sure this component is registered in @element-plus/components
-import { ComponentYouAreDeveloping } from '@element-plus/components'
+import { ComponentYouAreDeveloping } from '@lkq-element-plus/components'
 </script>
 ```
 

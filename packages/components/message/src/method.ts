@@ -7,9 +7,9 @@ import {
   isNumber,
   isString,
   isVNode,
-} from '@element-plus/utils'
-import { useZIndex } from '@element-plus/hooks'
-import { messageConfig } from '@element-plus/components/config-provider/src/config-provider'
+} from '@lkq-element-plus/utils'
+import { useZIndex } from '@lkq-element-plus/hooks'
+import { messageConfig } from '@lkq-element-plus/components/config-provider/src/config-provider'
 import MessageConstructor from './message.vue'
 import { messageDefaults, messageTypes } from './message'
 import { instances } from './instance'

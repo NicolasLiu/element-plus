@@ -18,6 +18,9 @@ function useUtils<T>(store: Store<T>) {
   const clearFilter = (columnKeys: string[]) => {
     store.clearFilter(columnKeys)
   }
+  const doFilter = () => {
+    store.doFilter()
+  }
   const toggleAllSelection = () => {
     store.commit('toggleAllSelection')
   }
@@ -37,6 +40,7 @@ function useUtils<T>(store: Store<T>) {
     toggleRowSelection,
     clearSelection,
     clearFilter,
+    doFilter,
     toggleAllSelection,
     toggleRowExpansion,
     clearSort,

@@ -1,2 +1,2 @@
-import '@element-plus/components/base/style/css'
-import '@element-plus/theme-chalk/el-carousel-item.css'
+import '@lkq-element-plus/components/base/style/css'
+import '@lkq-element-plus/theme-chalk/el-carousel-item.css'

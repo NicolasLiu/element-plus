@@ -62,26 +62,31 @@
 <script lang="ts" setup>
 import { computed, onMounted, onUpdated, reactive, ref, watch } from 'vue'
 import { isNil } from 'lodash-unified'
-import { ElInput } from '@element-plus/components/input'
-import { ElIcon } from '@element-plus/components/icon'
-import { vRepeatClick } from '@element-plus/directives'
+import { ArrowDown, ArrowUp, Minus, Plus } from '@element-plus/icons-vue'
+import { ElInput } from '@lkq-element-plus/components/input'
+import { ElIcon } from '@lkq-element-plus/components/icon'
+import { vRepeatClick } from '@lkq-element-plus/directives'
 import {
   useDisabled,
   useFormItem,
   useLocale,
   useNamespace,
   useSize,
-} from '@element-plus/hooks'
-import { debugWarn, isNumber, isString, isUndefined } from '@element-plus/utils'
-import { ArrowDown, ArrowUp, Minus, Plus } from '@element-plus/icons-vue'
+} from '@lkq-element-plus/hooks'
+import {
+  debugWarn,
+  isNumber,
+  isString,
+  isUndefined,
+} from '@lkq-element-plus/utils'
 import {
   CHANGE_EVENT,
   INPUT_EVENT,
   UPDATE_MODEL_EVENT,
-} from '@element-plus/constants'
+} from '@lkq-element-plus/constants'
 import { inputNumberEmits, inputNumberProps } from './input-number'
 
-import type { InputInstance } from '@element-plus/components/input'
+import type { InputInstance } from '@lkq-element-plus/components/input'
 
 defineOptions({
   name: 'ElInputNumber',

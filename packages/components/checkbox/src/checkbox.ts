@@ -1,6 +1,6 @@
-import { UPDATE_MODEL_EVENT } from '@element-plus/constants'
-import { useSizeProp } from '@element-plus/hooks'
-import { isBoolean, isNumber, isString } from '@element-plus/utils'
+import { UPDATE_MODEL_EVENT } from '@lkq-element-plus/constants'
+import { useSizeProp } from '@lkq-element-plus/hooks'
+import { isBoolean, isNumber, isString } from '@lkq-element-plus/utils'
 
 import type { ExtractPropTypes } from 'vue'
 import type Checkbox from './checkbox.vue'

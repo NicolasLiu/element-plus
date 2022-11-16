@@ -1,5 +1,5 @@
 import { isClient } from '@vueuse/core'
-import { isElement } from '@element-plus/utils'
+import { isElement } from '@lkq-element-plus/utils'
 
 import type {
   ComponentPublicInstance,

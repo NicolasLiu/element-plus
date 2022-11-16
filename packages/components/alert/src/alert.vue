@@ -39,9 +39,9 @@
 </template>
 <script lang="ts" setup>
 import { computed, ref, useSlots } from 'vue'
-import { ElIcon } from '@element-plus/components/icon'
-import { TypeComponents, TypeComponentsMap } from '@element-plus/utils'
-import { useNamespace } from '@element-plus/hooks'
+import { ElIcon } from '@lkq-element-plus/components/icon'
+import { TypeComponents, TypeComponentsMap } from '@lkq-element-plus/utils'
+import { useNamespace } from '@lkq-element-plus/hooks'
 import { alertEmits, alertProps } from './alert'
 
 const { Close } = TypeComponents

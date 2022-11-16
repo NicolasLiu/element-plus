@@ -1,6 +1,6 @@
 import { onBeforeMount } from 'vue'
 import { isClient } from '@vueuse/core'
-import { generateId } from '@element-plus/utils'
+import { generateId } from '@lkq-element-plus/utils'
 import { useGlobalConfig } from '../use-global-config'
 import { defaultNamespace } from '../use-namespace'
 

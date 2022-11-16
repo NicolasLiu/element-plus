@@ -1,6 +1,9 @@
-import { buildProps } from '@element-plus/utils'
-import { createModelToggleComposable } from '@element-plus/hooks'
-import { popperArrowProps, popperProps } from '@element-plus/components/popper'
+import { buildProps } from '@lkq-element-plus/utils'
+import { createModelToggleComposable } from '@lkq-element-plus/hooks'
+import {
+  popperArrowProps,
+  popperProps,
+} from '@lkq-element-plus/components/popper'
 import { useTooltipContentProps } from './content'
 import { useTooltipTriggerProps } from './trigger'
 import type Tooltip from './tooltip.vue'

@@ -3,8 +3,8 @@ import {
   definePropType,
   isBoolean,
   isNumber,
-} from '@element-plus/utils'
-import { CHANGE_EVENT } from '@element-plus/constants'
+} from '@lkq-element-plus/utils'
+import { CHANGE_EVENT } from '@lkq-element-plus/constants'
 import type { ExtractPropTypes } from 'vue'
 import type { ZIndexProperty } from 'csstype'
 import type Affix from './affix.vue'

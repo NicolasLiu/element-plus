@@ -7,7 +7,7 @@ pnpm update:version
 
 pnpm build
 
-cd dist/element-plus
+cd dist/lkq-element-plus
 npm publish
 cd -
 

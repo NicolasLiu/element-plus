@@ -1,6 +1,9 @@
 import consola from 'consola'
 import chalk from 'chalk'
-import { errorAndExit, getWorkspacePackages } from '@element-plus/build-utils'
+import {
+  errorAndExit,
+  getWorkspacePackages,
+} from '@lkq-element-plus/build-utils'
 import type { Project } from '@pnpm/find-workspace-packages'
 
 async function main() {
@@ -23,9 +26,10 @@ async function main() {
   const pkgs = Object.fromEntries(
     (await getWorkspacePackages()).map((pkg) => [pkg.manifest.name!, pkg])
   )
-  const elementPlus = pkgs['element-plus'] || pkgs['@element-plus/nightly']
-  const eslintConfig = pkgs['@element-plus/eslint-config']
-  const metadata = pkgs['@element-plus/metadata']
+  const elementPlus =
+    pkgs['lkq-element-plus'] || pkgs['@lkq-element-plus/nightly']
+  const eslintConfig = pkgs['@lkq-element-plus/eslint-config']
+  const metadata = pkgs['@lkq-element-plus/metadata']
 
   const writeVersion = async (project: Project) => {
     await project.writeProjectManifest({

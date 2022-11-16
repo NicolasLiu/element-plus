@@ -1,6 +1,6 @@
 // @ts-nocheck
 import { getCurrentInstance, nextTick, unref } from 'vue'
-import { useNamespace } from '@element-plus/hooks'
+import { useNamespace } from '@lkq-element-plus/hooks'
 import useWatcher from './watcher'
 
 import type { Ref } from 'vue'
@@ -144,7 +144,7 @@ function useStore<T>() {
 
     changeSortCondition(states: StoreStates, options: Sort) {
       // 修复 pr https://github.com/ElemeFE/element/pull/15012 导致的 bug
-      // https://github.com/element-plus/element-plus/pull/4640
+      // https://github.com/lkq-element-plus/lkq-element-plus/pull/4640
       const { sortingColumn, sortProp, sortOrder } = states
       const columnValue = unref(sortingColumn),
         propValue = unref(sortProp),

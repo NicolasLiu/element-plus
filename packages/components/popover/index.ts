@@ -1,4 +1,4 @@
-import { withInstall, withInstallDirective } from '@element-plus/utils'
+import { withInstall, withInstallDirective } from '@lkq-element-plus/utils'
 
 import Popover from './src/popover.vue'
 import PopoverDirective, { VPopover } from './src/directive'

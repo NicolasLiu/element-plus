@@ -58,15 +58,15 @@ import {
   unref,
   watch,
 } from 'vue'
-import { ElPopper, ElPopperArrow } from '@element-plus/components/popper'
+import { ElPopper, ElPopperArrow } from '@lkq-element-plus/components/popper'
 
-import { isBoolean } from '@element-plus/utils'
+import { isBoolean } from '@lkq-element-plus/utils'
 import {
   useDelayedToggle,
   useId,
   usePopperContainer,
-} from '@element-plus/hooks'
-import { TOOLTIP_INJECTION_KEY } from '@element-plus/tokens'
+} from '@lkq-element-plus/hooks'
+import { TOOLTIP_INJECTION_KEY } from '@lkq-element-plus/tokens'
 import { tooltipEmits, useTooltipModelToggle, useTooltipProps } from './tooltip'
 import ElTooltipTrigger from './trigger.vue'
 import ElTooltipContent from './content.vue'

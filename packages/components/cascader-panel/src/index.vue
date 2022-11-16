@@ -35,13 +35,13 @@ import {
   isEmpty,
   scrollIntoView,
   unique,
-} from '@element-plus/utils'
+} from '@lkq-element-plus/utils'
 import {
   CHANGE_EVENT,
   EVENT_CODE,
   UPDATE_MODEL_EVENT,
-} from '@element-plus/constants'
-import { useNamespace } from '@element-plus/hooks'
+} from '@lkq-element-plus/constants'
+import { useNamespace } from '@lkq-element-plus/hooks'
 
 import ElCascaderMenu from './menu.vue'
 import Store from './store'
@@ -51,7 +51,7 @@ import { checkNode, getMenuIndex, sortByOriginalOrder } from './utils'
 import { CASCADER_PANEL_INJECTION_KEY } from './types'
 
 import type { PropType } from 'vue'
-import type { Nullable } from '@element-plus/utils'
+import type { Nullable } from '@lkq-element-plus/utils'
 import type {
   default as CascaderNode,
   CascaderNodeValue,

@@ -1,6 +1,6 @@
 // @ts-nocheck
 import { getCurrentInstance, ref, toRefs, unref, watch } from 'vue'
-import { hasOwn } from '@element-plus/utils'
+import { hasOwn } from '@lkq-element-plus/utils'
 import {
   getColumnById,
   getColumnByKey,
@@ -419,6 +419,26 @@ function useWatcher<T>() {
     }
   }
 
+  const doFilter = () => {
+    const { tableHeaderRef } = instance.refs as TableRefs
+    if (!tableHeaderRef) return
+    const panels = Object.assign({}, tableHeaderRef.filterPanels)
+
+    const keys = Object.keys(panels)
+    if (!keys.length) return
+
+    keys.forEach((key) => {
+      const column = columns.value.find((col) => col.id === key)
+      if (column) {
+        instance.store.commit('filterChange', {
+          column,
+          values: column.filteredValue,
+          silent: true,
+        })
+      }
+    })
+  }
+
   const clearSort = () => {
     if (!sortingColumn.value) return
 
@@ -490,6 +510,7 @@ function useWatcher<T>() {
     updateCurrentRow,
     updateSort,
     execFilter,
+    doFilter,
     execSort,
     execQuery,
     clearFilter,

@@ -1,1 +1,1 @@
-import '@element-plus/theme-chalk/src/base.scss'
+import '@lkq-element-plus/theme-chalk/src/base.scss'

@@ -9,9 +9,9 @@
 <script lang="ts" setup>
 import { getCurrentInstance, inject, nextTick, ref, watch } from 'vue'
 import { useResizeObserver } from '@vueuse/core'
-import { capitalize, throwError } from '@element-plus/utils'
-import { tabsRootContextKey } from '@element-plus/tokens'
-import { useNamespace } from '@element-plus/hooks'
+import { capitalize, throwError } from '@lkq-element-plus/utils'
+import { tabsRootContextKey } from '@lkq-element-plus/tokens'
+import { useNamespace } from '@lkq-element-plus/hooks'
 import { tabBarProps } from './tab-bar'
 
 import type { CSSProperties } from 'vue'

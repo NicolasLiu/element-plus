@@ -1,5 +1,5 @@
 {
-  "name": "@element-plus/play",
+  "name": "@lkq-element-plus/play",
   "private": true,
   "scripts": {
     "dev": "vite",
@@ -7,14 +7,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@element-plus/icons-vue": "^2.0.6",
-    "vue": "^3.2.37"
+    "@element-plus/icons-vue": "^2.0.10",
+    "vue": "^3.2.45"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^2.3.3",
+    "@vitejs/plugin-vue": "^2.3.4",
     "unplugin-vue-components": "0.21.2",
     "vite": "^2.9.15",
-    "vite-plugin-inspect": "^0.5.0",
-    "vite-plugin-mkcert": "^1.7.2"
+    "vite-plugin-inspect": "^0.5.1",
+    "vite-plugin-mkcert": "^1.10.1"
   }
 }

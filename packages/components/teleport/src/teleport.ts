@@ -1,4 +1,4 @@
-import { buildProps, definePropType } from '@element-plus/utils'
+import { buildProps, definePropType } from '@lkq-element-plus/utils'
 import type { ExtractPropTypes, StyleValue } from 'vue'
 import type Teleport from './teleport.vue'
 

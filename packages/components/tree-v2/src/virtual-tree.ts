@@ -3,10 +3,10 @@ import {
   definePropType,
   iconPropType,
   mutable,
-} from '@element-plus/utils'
-import type { CheckboxValueType } from '@element-plus/components/checkbox'
+} from '@lkq-element-plus/utils'
+import type { CheckboxValueType } from '@lkq-element-plus/components/checkbox'
 import type { InjectionKey } from 'vue'
-import type { TreeNodeData } from '@element-plus/components/tree/src/tree.type'
+import type { TreeNodeData } from '@lkq-element-plus/components/tree/src/tree.type'
 import type {
   CheckedInfo,
   FilterMethod,

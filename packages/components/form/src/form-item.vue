@@ -60,9 +60,9 @@ import {
   isBoolean,
   isFunction,
   isString,
-} from '@element-plus/utils'
-import { formContextKey, formItemContextKey } from '@element-plus/tokens'
-import { useId, useNamespace, useSize } from '@element-plus/hooks'
+} from '@lkq-element-plus/utils'
+import { formContextKey, formItemContextKey } from '@lkq-element-plus/tokens'
+import { useId, useNamespace, useSize } from '@lkq-element-plus/hooks'
 import { formItemProps } from './form-item'
 import FormLabelWrap from './form-label-wrap'
 
@@ -72,8 +72,8 @@ import type {
   FormItemContext,
   FormItemRule,
   FormValidateFailure,
-} from '@element-plus/tokens'
-import type { Arrayable } from '@element-plus/utils'
+} from '@lkq-element-plus/tokens'
+import type { Arrayable } from '@lkq-element-plus/utils'
 import type { FormItemValidateState } from './form-item'
 
 defineOptions({

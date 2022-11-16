@@ -16,9 +16,9 @@
 </template>
 
 <script lang="ts" setup>
-import type Node from 'element-plus/es/components/tree/src/model/node'
-import type { DragEvents } from 'element-plus/es/components/tree/src/model/useDragNode'
-import type { DropType } from 'element-plus/es/components/tree/src/tree.type'
+import type Node from 'lkq-element-plus/es/components/tree/src/model/node'
+import type { DragEvents } from 'lkq-element-plus/es/components/tree/src/model/useDragNode'
+import type { DropType } from 'lkq-element-plus/es/components/tree/src/tree.type'
 
 const handleDragStart = (node: Node, ev: DragEvents) => {
   console.log('drag start', node)

@@ -63,9 +63,9 @@ import {
   ref,
   watch,
 } from 'vue'
-import { useNamespace } from '@element-plus/hooks'
-import { ElIcon } from '@element-plus/components/icon'
 import { Check, Close } from '@element-plus/icons-vue'
+import { useNamespace } from '@lkq-element-plus/hooks'
+import { ElIcon } from '@lkq-element-plus/components/icon'
 import { stepProps } from './item'
 
 import type { CSSProperties, Ref } from 'vue'

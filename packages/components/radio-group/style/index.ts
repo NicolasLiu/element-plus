@@ -1,2 +1,2 @@
-import '@element-plus/components/base/style'
-import '@element-plus/theme-chalk/src/radio-group.scss'
+import '@lkq-element-plus/components/base/style'
+import '@lkq-element-plus/theme-chalk/src/radio-group.scss'

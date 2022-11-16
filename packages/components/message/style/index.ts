@@ -1,3 +1,3 @@
-import '@element-plus/components/base/style'
-import '@element-plus/components/badge/style'
-import '@element-plus/theme-chalk/src/message.scss'
+import '@lkq-element-plus/components/base/style'
+import '@lkq-element-plus/components/badge/style'
+import '@lkq-element-plus/theme-chalk/src/message.scss'

@@ -1,4 +1,4 @@
-import { buildProps, definePropType } from '@element-plus/utils'
+import { buildProps, definePropType } from '@lkq-element-plus/utils'
 import { disabledTimeListsProps } from '../props/shared'
 
 import type { ExtractPropTypes } from 'vue'

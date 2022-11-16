@@ -10,12 +10,12 @@ import {
   errorAndExit,
   projRoot,
   writeJson,
-} from '@element-plus/build-utils'
+} from '@lkq-element-plus/build-utils'
 import {
   REPO_BRANCH,
   REPO_NAME,
   REPO_OWNER,
-} from '@element-plus/build-constants'
+} from '@lkq-element-plus/build-constants'
 
 interface FetchOption {
   key: string

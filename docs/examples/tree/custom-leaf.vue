@@ -3,7 +3,7 @@
 </template>
 
 <script lang="ts" setup>
-import type Node from 'element-plus/es/components/tree/src/model/node'
+import type Node from 'lkq-element-plus/es/components/tree/src/model/node'
 
 interface Tree {
   name: string

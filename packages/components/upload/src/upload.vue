@@ -54,8 +54,8 @@ import {
   toRef,
   useSlots,
 } from 'vue'
-import { uploadContextKey } from '@element-plus/tokens'
-import { useDisabled } from '@element-plus/hooks'
+import { uploadContextKey } from '@lkq-element-plus/tokens'
+import { useDisabled } from '@lkq-element-plus/hooks'
 
 import UploadList from './upload-list.vue'
 import UploadContent from './upload-content.vue'

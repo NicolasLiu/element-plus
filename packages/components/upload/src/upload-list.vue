@@ -106,7 +106,6 @@
 </template>
 <script lang="ts" setup>
 import { ref } from 'vue'
-import { ElIcon } from '@element-plus/components/icon'
 import {
   Check,
   CircleCheck,
@@ -115,8 +114,9 @@ import {
   Document,
   ZoomIn,
 } from '@element-plus/icons-vue'
-import { useLocale, useNamespace } from '@element-plus/hooks'
-import ElProgress from '@element-plus/components/progress'
+import { ElIcon } from '@lkq-element-plus/components/icon'
+import { useLocale, useNamespace } from '@lkq-element-plus/hooks'
+import ElProgress from '@lkq-element-plus/components/progress'
 
 import { uploadListEmits, uploadListProps } from './upload-list'
 import type { UploadFile } from './upload'

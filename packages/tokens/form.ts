@@ -4,7 +4,7 @@ import type {
   ValidateError,
   ValidateFieldsError,
 } from 'async-validator'
-import type { ComponentSize } from '@element-plus/constants'
+import type { ComponentSize } from '@lkq-element-plus/constants'
 import type {
   FormEmits,
   FormItemProp,
@@ -12,8 +12,8 @@ import type {
   FormItemValidateState,
   FormLabelWidthContext,
   FormProps,
-} from '@element-plus/components/form'
-import type { Arrayable } from '@element-plus/utils'
+} from '@lkq-element-plus/components/form'
+import type { Arrayable } from '@lkq-element-plus/utils'
 
 export interface FormItemRule extends RuleItem {
   trigger?: Arrayable<string>

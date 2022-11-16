@@ -1,5 +1,5 @@
 import { isNil } from 'lodash-unified'
-import { throwError } from '@element-plus/utils'
+import { throwError } from '@lkq-element-plus/utils'
 import type {
   UploadProgressEvent,
   UploadRequestHandler,

@@ -1,4 +1,4 @@
-import { buildProps, iconPropType } from '@element-plus/utils'
+import { buildProps, iconPropType } from '@lkq-element-plus/utils'
 import type { ExtractPropTypes } from 'vue'
 import type Breadcrumb from './breadcrumb.vue'
 

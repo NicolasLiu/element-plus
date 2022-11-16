@@ -1,6 +1,6 @@
 import { computed, inject, unref } from 'vue'
 import { isClient } from '@vueuse/core'
-import { debugWarn } from '@element-plus/utils'
+import { debugWarn } from '@lkq-element-plus/utils'
 import { useGlobalConfig } from '../use-global-config'
 import { defaultNamespace } from '../use-namespace'
 

@@ -1,4 +1,4 @@
-import { withInstall } from '@element-plus/utils'
+import { withInstall } from '@lkq-element-plus/utils'
 import Autocomplete from './src/autocomplete.vue'
 
 export const ElAutocomplete = withInstall(Autocomplete)

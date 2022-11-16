@@ -6,7 +6,7 @@
 </template>
 
 <script lang="ts" setup>
-import { ElNotification } from 'element-plus'
+import { ElNotification } from 'lkq-element-plus'
 
 const open1 = () => {
   ElNotification({

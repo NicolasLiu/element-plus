@@ -28,7 +28,7 @@ import {
   reactive,
   toRefs,
 } from 'vue'
-import { useNamespace } from '@element-plus/hooks'
+import { useNamespace } from '@lkq-element-plus/hooks'
 import { useOption } from './useOption'
 import type { SelectOptionProxy } from './token'
 

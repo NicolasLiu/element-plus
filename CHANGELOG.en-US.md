@@ -910,13 +910,13 @@ _2022-05-20_
 
 _2022-05-09_
 
-[v2.2.0 release note](https://github.com/element-plus/element-plus/discussions/7578)
+[v2.2.0 release note](https://github.com/lkq-element-plus/lkq-element-plus/discussions/7578)
 
 #### Breaking changes
 
 ##### Button
 
-- `type="text"` has been removed from `button`, now you can do this, for more detail see [Documentation](https://element-plus.org/en-US/component/button.html#text-button)
+- `type="text"` has been removed from `button`, now you can do this, for more detail see [Documentation](https://lkq-element-plus.org/en-US/component/button.html#text-button)
 
 ```diff
 --- <el-button type="text"/>
@@ -1886,7 +1886,7 @@ _2021-12-31_
 
 #### Breaking changes:
 
-- Please refer to: [1.3.0-beta.1 Breaking change](https://github.com/element-plus/element-plus/discussions/5037)
+- Please refer to: [1.3.0-beta.1 Breaking change](https://github.com/lkq-element-plus/lkq-element-plus/discussions/5037)
 
 #### Features
 
@@ -2144,7 +2144,7 @@ _2021-10-30_
 
 #### Breaking changes:
 
-- Please refer to: [1.2.0-beta.1 Breaking change](https://github.com/element-plus/element-plus/discussions/4060)
+- Please refer to: [1.2.0-beta.1 Breaking change](https://github.com/lkq-element-plus/lkq-element-plus/discussions/4060)
 
 #### Features
 
@@ -2699,7 +2699,7 @@ _2021-08-24_
 
 #### Breaking changes:
 
-- Please refer to: [Breaking changes made in 1.1.0-beta.1](https://github.com/element-plus/element-plus/discussions/3020)
+- Please refer to: [Breaking changes made in 1.1.0-beta.1](https://github.com/lkq-element-plus/lkq-element-plus/discussions/3020)
 
 #### Features
 

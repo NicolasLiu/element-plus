@@ -4,7 +4,7 @@ import {
   composeRefs,
   definePropType,
   ensureOnlyChild,
-} from '@element-plus/utils'
+} from '@lkq-element-plus/utils'
 
 import type { ExtractPropTypes, VNodeArrayChildren } from 'vue'
 

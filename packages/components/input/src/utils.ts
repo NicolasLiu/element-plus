@@ -1,4 +1,4 @@
-import { isNumber } from '@element-plus/utils'
+import { isNumber } from '@lkq-element-plus/utils'
 
 let hiddenTextarea: HTMLTextAreaElement | undefined = undefined
 

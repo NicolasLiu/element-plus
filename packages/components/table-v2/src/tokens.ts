@@ -1,5 +1,5 @@
 import type { InjectionKey, Ref } from 'vue'
-import type { UseNamespaceReturn } from '@element-plus/hooks'
+import type { UseNamespaceReturn } from '@lkq-element-plus/hooks'
 import type { KeyType } from './types'
 
 export type TableV2Context = {

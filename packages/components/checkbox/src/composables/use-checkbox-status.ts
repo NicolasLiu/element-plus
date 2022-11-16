@@ -1,8 +1,8 @@
 import { computed, inject, ref, toRaw } from 'vue'
 import { isEqual } from 'lodash-unified'
-import { useSize } from '@element-plus/hooks'
-import { isArray, isBoolean, isObject } from '@element-plus/utils'
-import { checkboxGroupContextKey } from '@element-plus/tokens'
+import { useSize } from '@lkq-element-plus/hooks'
+import { isArray, isBoolean, isObject } from '@lkq-element-plus/utils'
+import { checkboxGroupContextKey } from '@lkq-element-plus/tokens'
 
 import type { ComponentInternalInstance } from 'vue'
 import type { CheckboxProps } from '../checkbox'

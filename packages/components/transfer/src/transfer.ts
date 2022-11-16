@@ -4,8 +4,8 @@ import {
   definePropType,
   isArray,
   mutable,
-} from '@element-plus/utils'
-import { CHANGE_EVENT, UPDATE_MODEL_EVENT } from '@element-plus/constants'
+} from '@lkq-element-plus/utils'
+import { CHANGE_EVENT, UPDATE_MODEL_EVENT } from '@lkq-element-plus/constants'
 
 import type { ExtractPropTypes, h as H, VNode } from 'vue'
 import type Transfer from './transfer.vue'

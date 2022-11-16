@@ -1,9 +1,9 @@
 import { watch } from 'vue'
-import { INPUT_EVENT, UPDATE_MODEL_EVENT } from '@element-plus/constants'
-import { debugWarn, throwError } from '@element-plus/utils'
+import { INPUT_EVENT, UPDATE_MODEL_EVENT } from '@lkq-element-plus/constants'
+import { debugWarn, throwError } from '@lkq-element-plus/utils'
 import type { ComputedRef, SetupContext } from 'vue'
-import type { Arrayable } from '@element-plus/utils'
-import type { FormItemContext } from '@element-plus/tokens'
+import type { Arrayable } from '@lkq-element-plus/utils'
+import type { FormItemContext } from '@lkq-element-plus/tokens'
 import type { SliderEmits, SliderInitData, SliderProps } from '../slider'
 
 export const useWatch = (

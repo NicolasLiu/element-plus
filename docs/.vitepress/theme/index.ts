@@ -1,4 +1,4 @@
-import ElementPlus from 'element-plus'
+import ElementPlus from 'lkq-element-plus'
 
 import VPApp, { NotFound, globals } from '../vitepress'
 import { define } from '../utils/types'

@@ -5,7 +5,7 @@ lang: en-US
 
 # Migration
 
-[This guide](https://github.com/element-plus/element-plus/discussions/5658) will help you upgrade from Element 2.x to Element Plus.
+[This guide](https://github.com/lkq-element-plus/lkq-element-plus/discussions/5658) will help you upgrade from Element 2.x to Element Plus.
 
 ## Vue 3 migration build
 

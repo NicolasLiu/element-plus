@@ -18,10 +18,10 @@
 </template>
 <script lang="ts" setup>
 import { inject, ref, toRef, unref } from 'vue'
-import { ElPopperTrigger } from '@element-plus/components/popper'
-import { composeEventHandlers } from '@element-plus/utils'
-import { useNamespace } from '@element-plus/hooks'
-import { TOOLTIP_INJECTION_KEY } from '@element-plus/tokens'
+import { ElPopperTrigger } from '@lkq-element-plus/components/popper'
+import { composeEventHandlers } from '@lkq-element-plus/utils'
+import { useNamespace } from '@lkq-element-plus/hooks'
+import { TOOLTIP_INJECTION_KEY } from '@lkq-element-plus/tokens'
 import { useTooltipTriggerProps } from './trigger'
 import { whenTrigger } from './utils'
 

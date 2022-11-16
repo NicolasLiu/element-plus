@@ -85,9 +85,9 @@
 import { computed, inject, ref, unref } from 'vue'
 import dayjs from 'dayjs'
 import { union } from 'lodash-unified'
-import { useLocale, useNamespace } from '@element-plus/hooks'
-import { isArray } from '@element-plus/utils'
-import { EVENT_CODE } from '@element-plus/constants'
+import { useLocale, useNamespace } from '@lkq-element-plus/hooks'
+import { isArray } from '@lkq-element-plus/utils'
+import { EVENT_CODE } from '@lkq-element-plus/constants'
 import { panelTimeRangeProps } from '../props/panel-time-range'
 import { useTimePanel } from '../composables/use-time-panel'
 import {

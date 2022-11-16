@@ -1,4 +1,4 @@
-import { buildProps, definePropType, isNumber } from '@element-plus/utils'
+import { buildProps, definePropType, isNumber } from '@lkq-element-plus/utils'
 import type { ExtractPropTypes, StyleValue } from 'vue'
 import type Scrollbar from './scrollbar.vue'
 

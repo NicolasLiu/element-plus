@@ -96,16 +96,21 @@ import {
   toRef,
   unref,
 } from 'vue'
-import ElButton from '@element-plus/components/button'
-import ElTooltip from '@element-plus/components/tooltip'
-import ElScrollbar from '@element-plus/components/scrollbar'
-import ElIcon from '@element-plus/components/icon'
-import ElRovingFocusGroup from '@element-plus/components/roving-focus-group'
-import { ElOnlyChild } from '@element-plus/components/slot'
-import { addUnit } from '@element-plus/utils'
 import { ArrowDown } from '@element-plus/icons-vue'
-import { EVENT_CODE } from '@element-plus/constants'
-import { useId, useLocale, useNamespace, useSize } from '@element-plus/hooks'
+import ElButton from '@lkq-element-plus/components/button'
+import ElTooltip from '@lkq-element-plus/components/tooltip'
+import ElScrollbar from '@lkq-element-plus/components/scrollbar'
+import ElIcon from '@lkq-element-plus/components/icon'
+import ElRovingFocusGroup from '@lkq-element-plus/components/roving-focus-group'
+import { ElOnlyChild } from '@lkq-element-plus/components/slot'
+import { addUnit } from '@lkq-element-plus/utils'
+import { EVENT_CODE } from '@lkq-element-plus/constants'
+import {
+  useId,
+  useLocale,
+  useNamespace,
+  useSize,
+} from '@lkq-element-plus/hooks'
 import { ElCollection as ElDropdownCollection, dropdownProps } from './dropdown'
 import { DROPDOWN_INJECTION_KEY } from './tokens'
 

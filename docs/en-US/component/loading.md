@@ -48,7 +48,7 @@ loading/fullscreen
 You can also invoke Loading with a service. Import Loading service:
 
 ```ts
-import { ElLoading } from 'element-plus'
+import { ElLoading } from 'lkq-element-plus'
 ```
 
 Invoke it:

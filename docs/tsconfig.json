@@ -12,7 +12,7 @@
     "skipLibCheck": true,
     "lib": ["WebWorker"],
     "paths": {
-      "element-plus": ["../packages/element-plus"],
+      "lkq-element-plus": ["../packages/lkq-element-plus"],
       "~/*": ["./.vitepress/vitepress/*"]
     },
     "types": ["../typings/components"],

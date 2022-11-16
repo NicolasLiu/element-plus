@@ -8,7 +8,7 @@ import {
   hasClass,
   removeClass,
   throwError,
-} from '@element-plus/utils'
+} from '@lkq-element-plus/utils'
 import { useNamespace } from '../use-namespace'
 
 import type { Ref } from 'vue'

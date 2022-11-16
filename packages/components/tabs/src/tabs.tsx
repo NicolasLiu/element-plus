@@ -8,28 +8,28 @@ import {
   renderSlot,
   watch,
 } from 'vue'
+import { Plus } from '@element-plus/icons-vue'
 import {
   buildProps,
   definePropType,
   isNumber,
   isString,
   isUndefined,
-} from '@element-plus/utils'
-import { EVENT_CODE, UPDATE_MODEL_EVENT } from '@element-plus/constants'
-import ElIcon from '@element-plus/components/icon'
-import { Plus } from '@element-plus/icons-vue'
-import { tabsRootContextKey } from '@element-plus/tokens'
+} from '@lkq-element-plus/utils'
+import { EVENT_CODE, UPDATE_MODEL_EVENT } from '@lkq-element-plus/constants'
+import ElIcon from '@lkq-element-plus/components/icon'
+import { tabsRootContextKey } from '@lkq-element-plus/tokens'
 import {
   useDeprecated,
   useNamespace,
   useOrderedChildren,
-} from '@element-plus/hooks'
+} from '@lkq-element-plus/hooks'
 import TabNav from './tab-nav'
 
 import type { TabNavInstance } from './tab-nav'
-import type { TabsPaneContext } from '@element-plus/tokens'
+import type { TabsPaneContext } from '@lkq-element-plus/tokens'
 import type { ExtractPropTypes } from 'vue'
-import type { Awaitable } from '@element-plus/utils'
+import type { Awaitable } from '@lkq-element-plus/utils'
 
 export type TabPaneName = string | number
 
@@ -150,7 +150,7 @@ export default defineComponent({
         replacement: '"model-value" or "v-model"',
         scope: 'ElTabs',
         version: '2.3.0',
-        ref: 'https://element-plus.org/en-US/component/tabs.html#attributes',
+        ref: 'https://lkq-element-plus.org/en-US/component/tabs.html#attributes',
         type: 'Attribute',
       },
       computed(() => !!props.activeName)

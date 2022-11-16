@@ -1,8 +1,8 @@
-import { buildProps, definePropType } from '@element-plus/utils'
+import { buildProps, definePropType } from '@lkq-element-plus/utils'
 import {
   virtualizedGridProps,
   virtualizedScrollbarProps,
-} from '@element-plus/components/virtual-list'
+} from '@lkq-element-plus/components/virtual-list'
 import {
   classType,
   columns,

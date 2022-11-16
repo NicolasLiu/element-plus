@@ -11,7 +11,7 @@ With Virtualized Table, you can render massive chunks of data in a blink of an e
 
 :::tip
 
-This component is **still under testing**, use at your own risk. if you found any bug or issue please report it at [GitHub](https://github.com/element-plus/element-plus/issues) for us to fix. Also there were some APIs which was not mentioned in this documentation, some of them were not
+This component is **still under testing**, use at your own risk. if you found any bug or issue please report it at [GitHub](https://github.com/lkq-element-plus/lkq-element-plus/issues) for us to fix. Also there were some APIs which was not mentioned in this documentation, some of them were not
 fully developed yet, so that we are not mentioning them here.
 
 **Even though** Virtualized Table is efficient, but when the data load is too big, your **network**, **memory size** can be the bottle neck of your app. So keep in mind that Virtualized Table is never the ultimate solution for everything, consider paginate your data, add filters etc.
@@ -371,9 +371,9 @@ Note that these are `JavaScript` Objects, so that you **CANNOT USE** kebab-case 
 
 | Name               | Description                                                               | Type                                                                                                                                                             | Default |
 | ------------------ | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
-| align              | Alignment of the table cell content                                       | [Alignment](https://github.com/element-plus/element-plus/blob/b92b22932758f0ddea98810ae248f6ca62f77e25/packages/components/table-v2/src/constants.ts#L6)         | left    |
+| align              | Alignment of the table cell content                                       | [Alignment](https://github.com/lkq-element-plus/lkq-element-plus/blob/b92b22932758f0ddea98810ae248f6ca62f77e25/packages/components/table-v2/src/constants.ts#L6)         | left    |
 | class              | Class name for the column                                                 | String                                                                                                                                                           | -       |
-| fixed              | Fixed direction of the column                                             | Boolean/[FixedDir](https://github.com/element-plus/element-plus/blob/b92b22932758f0ddea98810ae248f6ca62f77e25/packages/components/table-v2/src/constants.ts#L11) | false   |
+| fixed              | Fixed direction of the column                                             | Boolean/[FixedDir](https://github.com/lkq-element-plus/lkq-element-plus/blob/b92b22932758f0ddea98810ae248f6ca62f77e25/packages/components/table-v2/src/constants.ts#L11) | false   |
 | flexGrow           | CSSProperties flex grow, Only useful when not this is not a fixed table   | Number                                                                                                                                                           | 0       |
 | flexShrink         | CSSProperties flex shrink, Only useful when not this is not a fixed table | Number                                                                                                                                                           | 1       |
 | headerClass        | Used for customizing header column class                                  | String                                                                                                                                                           | -       |

@@ -4,9 +4,9 @@ import {
   definePropType,
   iconPropType,
   mutable,
-} from '@element-plus/utils'
+} from '@lkq-element-plus/utils'
 import type { AppContext, ExtractPropTypes, VNode } from 'vue'
-import type { Mutable } from '@element-plus/utils'
+import type { Mutable } from '@lkq-element-plus/utils'
 import type MessageConstructor from './message.vue'
 
 export const messageTypes = ['success', 'info', 'warning', 'error'] as const

@@ -101,9 +101,9 @@
 <script lang="ts" setup>
 import { computed, inject, ref, toRef } from 'vue'
 import dayjs from 'dayjs'
-import ElIcon from '@element-plus/components/icon'
-import { useLocale } from '@element-plus/hooks'
 import { DArrowLeft, DArrowRight } from '@element-plus/icons-vue'
+import ElIcon from '@lkq-element-plus/components/icon'
+import { useLocale } from '@lkq-element-plus/hooks'
 import {
   panelMonthRangeEmits,
   panelMonthRangeProps,

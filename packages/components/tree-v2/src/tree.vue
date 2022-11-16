@@ -40,9 +40,9 @@
 
 <script lang="ts" setup>
 import { getCurrentInstance, provide, useSlots } from 'vue'
-import { useLocale, useNamespace } from '@element-plus/hooks'
-import { formItemContextKey } from '@element-plus/tokens'
-import { FixedSizeList } from '@element-plus/components/virtual-list'
+import { useLocale, useNamespace } from '@lkq-element-plus/hooks'
+import { formItemContextKey } from '@lkq-element-plus/tokens'
+import { FixedSizeList } from '@lkq-element-plus/components/virtual-list'
 import { useTree } from './composables/useTree'
 import ElTreeNode from './tree-node.vue'
 import { ROOT_TREE_INJECTION_KEY, treeEmits, treeProps } from './virtual-tree'

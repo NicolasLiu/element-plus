@@ -6,7 +6,7 @@ import {
   getStyle,
   hasClass,
   removeClass,
-} from '@element-plus/utils'
+} from '@lkq-element-plus/utils'
 
 export const useLockScreen = () => {
   let scrollBarWidth = 0

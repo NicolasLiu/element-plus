@@ -1,10 +1,10 @@
 // @ts-nocheck
 import { reactive } from 'vue'
-import { hasOwn } from '@element-plus/utils'
+import { hasOwn } from '@lkq-element-plus/utils'
 import { NODE_KEY, markNodeData } from './util'
 import type TreeStore from './tree-store'
 
-import type { Nullable } from '@element-plus/utils'
+import type { Nullable } from '@lkq-element-plus/utils'
 import type {
   FakeNode,
   TreeKey,

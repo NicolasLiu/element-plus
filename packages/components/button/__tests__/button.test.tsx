@@ -5,7 +5,7 @@ import { Loading, Search } from '@element-plus/icons-vue'
 
 import Button from '../src/button.vue'
 import ButtonGroup from '../src/button-group.vue'
-import type { ComponentSize } from '@element-plus/constants'
+import type { ComponentSize } from '@lkq-element-plus/constants'
 
 const AXIOM = 'Rem is the best girl'
 

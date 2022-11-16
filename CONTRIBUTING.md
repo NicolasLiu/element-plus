@@ -9,7 +9,7 @@
 
 **Insufficient information issue WILL BE CLOSED directly because we cannot reproduce them**
 
-- Issues that with feature request should to go to [RFCs](https://github.com/element-plus/rfcs/issues). This helps us managing the project.
+- Issues that with feature request should to go to [RFCs](https://github.com/lkq-element-plus/rfcs/issues). This helps us managing the project.
 
 Next section is for those who wants to help develop Element Plus.
 
@@ -51,7 +51,7 @@ Ah, now you have installed the code correctly, you can choose:
 ### Modify and update the documentation site.
 
 ```shell
-# If you would like to modify the website source code of https://element-plus.org
+# If you would like to modify the website source code of https://lkq-element-plus.org
 # It was made with [VitePress](https://vitepress.vuejs.org)
 pnpm run docs:gen-locale # This generates locale files for your local development
 pnpm run docs:dev
@@ -66,7 +66,7 @@ touch play/src/App.vue # Adding an entry for the play to run.
 pnpm run dev
 ```
 
-You can follow the [LOCAL DEVELOPMENT GUIDE](https://element-plus.org/en-US/guide/dev-guide.html) to do development more quickly.
+You can follow the [LOCAL DEVELOPMENT GUIDE](https://lkq-element-plus.org/en-US/guide/dev-guide.html) to do development more quickly.
 
 ### Compile the source code
 
@@ -110,7 +110,7 @@ pnpm cz
 2. You can also write the commit message by hand, but make sure your
    commit message follows the rules.
 
-We have a [commit template](https://element-plus.org/en-US/guide/commit-examples.html)
+We have a [commit template](https://lkq-element-plus.org/en-US/guide/commit-examples.html)
 
 NOTE:
 **PRs with unformatted commit message WILL NOT BE ACCEPTED**

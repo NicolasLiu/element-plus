@@ -16,7 +16,7 @@ import {
   CHANGE_EVENT,
   EVENT_CODE,
   UPDATE_MODEL_EVENT,
-} from '@element-plus/constants'
+} from '@lkq-element-plus/constants'
 import {
   debugWarn,
   getComponentSize,
@@ -25,17 +25,17 @@ import {
   isNumber,
   isString,
   scrollIntoView,
-} from '@element-plus/utils'
+} from '@lkq-element-plus/utils'
 import {
   useDeprecated,
   useFormItem,
   useLocale,
   useNamespace,
   useSize,
-} from '@element-plus/hooks'
+} from '@lkq-element-plus/hooks'
 
 import type { ComponentPublicInstance } from 'vue'
-import type ElTooltip from '@element-plus/components/tooltip'
+import type ElTooltip from '@lkq-element-plus/components/tooltip'
 import type { QueryChangeCtx, SelectOptionProxy } from './token'
 
 export function useSelectStates(props) {
@@ -80,7 +80,7 @@ export const useSelect = (props, states: States, ctx) => {
       replacement: 'override style scheme',
       version: '2.3.0',
       scope: 'props',
-      ref: 'https://element-plus.org/en-US/component/select.html#select-attributes',
+      ref: 'https://lkq-element-plus.org/en-US/component/select.html#select-attributes',
     },
     computed(() => props.suffixTransition === false)
   )

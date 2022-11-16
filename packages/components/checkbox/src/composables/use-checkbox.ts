@@ -1,5 +1,5 @@
-import { useFormItem, useFormItemInputId } from '@element-plus/hooks'
-import { isArray } from '@element-plus/utils'
+import { useFormItem, useFormItemInputId } from '@lkq-element-plus/hooks'
+import { isArray } from '@lkq-element-plus/utils'
 import { useCheckboxDisabled } from './use-checkbox-disabled'
 import { useCheckboxEvent } from './use-checkbox-event'
 import { useCheckboxModel } from './use-checkbox-model'

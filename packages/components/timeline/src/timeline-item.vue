@@ -44,8 +44,8 @@
 </template>
 
 <script lang="ts" setup>
-import { ElIcon } from '@element-plus/components/icon'
-import { useNamespace } from '@element-plus/hooks'
+import { ElIcon } from '@lkq-element-plus/components/icon'
+import { useNamespace } from '@lkq-element-plus/hooks'
 import { timelineItemProps } from './timeline-item'
 
 defineOptions({

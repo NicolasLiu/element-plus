@@ -54,11 +54,14 @@
 
 <script lang="ts" setup>
 import { computed, reactive, toRefs, useSlots } from 'vue'
-import { isEmpty } from '@element-plus/utils'
-import { useLocale, useNamespace } from '@element-plus/hooks'
-import { ElCheckbox, ElCheckboxGroup } from '@element-plus/components/checkbox'
-import { ElInput } from '@element-plus/components/input'
 import { Search } from '@element-plus/icons-vue'
+import { isEmpty } from '@lkq-element-plus/utils'
+import { useLocale, useNamespace } from '@lkq-element-plus/hooks'
+import {
+  ElCheckbox,
+  ElCheckboxGroup,
+} from '@lkq-element-plus/components/checkbox'
+import { ElInput } from '@lkq-element-plus/components/input'
 import { transferPanelEmits, transferPanelProps } from './transfer-panel'
 import { useCheck, usePropsAlias } from './composables'
 

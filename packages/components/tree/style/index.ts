@@ -1,3 +1,3 @@
-import '@element-plus/components/base/style'
-import '@element-plus/theme-chalk/src/tree.scss'
-import '@element-plus/components/checkbox/style'
+import '@lkq-element-plus/components/base/style'
+import '@lkq-element-plus/theme-chalk/src/tree.scss'
+import '@lkq-element-plus/components/checkbox/style'

@@ -20,7 +20,7 @@ Since Vue 3 no longer supports IE11, Element Plus does not support IE either.
 
 Element Plus is currently in a rapid development iteration.
 
-[![ElementPlus version badge](https://img.shields.io/npm/v/element-plus.svg?style=flat-square)](https://www.npmjs.org/package/element-plus)
+[![ElementPlus version badge](https://img.shields.io/npm/v/lkq-element-plus.svg?style=flat-square)](https://www.npmjs.org/package/lkq-element-plus)
 
 ## Using Package Manager
 
@@ -56,11 +56,11 @@ You can also use other CDN providers.
 ```html
 <head>
   <!-- Import style -->
-  <link rel="stylesheet" href="//unpkg.com/element-plus/dist/index.css" />
+  <link rel="stylesheet" href="//unpkg.com/lkq-element-plus/dist/index.css" />
   <!-- Import Vue 3 -->
   <script src="//unpkg.com/vue@3"></script>
   <!-- Import component library -->
-  <script src="//unpkg.com/element-plus"></script>
+  <script src="//unpkg.com/lkq-element-plus"></script>
 </head>
 ```
 
@@ -71,12 +71,12 @@ You can also use other CDN providers.
   <!-- Import style -->
   <link
     rel="stylesheet"
-    href="//cdn.jsdelivr.net/npm/element-plus/dist/index.css"
+    href="//cdn.jsdelivr.net/npm/lkq-element-plus/dist/index.css"
   />
   <!-- Import Vue 3 -->
   <script src="//cdn.jsdelivr.net/npm/vue@3"></script>
   <!-- Import component library -->
-  <script src="//cdn.jsdelivr.net/npm/element-plus"></script>
+  <script src="//cdn.jsdelivr.net/npm/lkq-element-plus"></script>
 </head>
 ```
 

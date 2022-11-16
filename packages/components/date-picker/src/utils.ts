@@ -1,5 +1,5 @@
 import dayjs from 'dayjs'
-import { isArray } from '@element-plus/utils'
+import { isArray } from '@lkq-element-plus/utils'
 
 import type { Dayjs } from 'dayjs'
 import type { DateCell } from './date-picker.type'

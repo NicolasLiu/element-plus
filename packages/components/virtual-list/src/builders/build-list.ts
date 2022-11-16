@@ -12,8 +12,8 @@ import {
   unref,
 } from 'vue'
 import { isClient } from '@vueuse/core'
-import { hasOwn, isNumber, isString } from '@element-plus/utils'
-import { useNamespace } from '@element-plus/hooks'
+import { hasOwn, isNumber, isString } from '@lkq-element-plus/utils'
+import { useNamespace } from '@lkq-element-plus/hooks'
 import { useCache } from '../hooks/use-cache'
 import useWheel from '../hooks/use-wheel'
 import Scrollbar from '../components/scrollbar'

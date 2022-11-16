@@ -18,9 +18,9 @@ import {
   ElTag,
   TableV2FixedDir,
   TableV2SortOrder,
-} from 'element-plus'
+} from 'lkq-element-plus'
 
-import type { Column, SortBy } from '@element-plus/components/table-v2'
+import type { Column, SortBy } from '@lkq-element-plus/components/table-v2'
 
 const longText =
   'Quaerat ipsam necessitatibus eum quibusdam est id voluptatem cumque mollitia.'

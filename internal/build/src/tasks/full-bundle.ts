@@ -13,10 +13,10 @@ import {
   PKG_BRAND_NAME,
   PKG_CAMELCASE_LOCAL_NAME,
   PKG_CAMELCASE_NAME,
-} from '@element-plus/build-constants'
-import { epOutput, epRoot, localeRoot } from '@element-plus/build-utils'
-import { version } from '../../../../packages/element-plus/version'
-import { ElementPlusAlias } from '../plugins/element-plus-alias'
+} from '@lkq-element-plus/build-constants'
+import { epOutput, epRoot, localeRoot } from '@lkq-element-plus/build-utils'
+import { version } from '../../../../packages/lkq-element-plus/version'
+import { ElementPlusAlias } from '../plugins/lkq-element-plus-alias'
 import {
   formatBundleFilename,
   generateExternal,

@@ -1,8 +1,8 @@
 import fs from 'fs'
 import path from 'path'
 import glob from 'fast-glob'
-import { docRoot, docsDirName, projRoot } from '@element-plus/build-utils'
-import { REPO_BRANCH, REPO_PATH } from '@element-plus/build-constants'
+import { docRoot, docsDirName, projRoot } from '@lkq-element-plus/build-utils'
+import { REPO_BRANCH, REPO_PATH } from '@lkq-element-plus/build-constants'
 import { getLang, languages } from '../utils/lang'
 import footerLocale from '../i18n/component/footer.json'
 
@@ -12,7 +12,7 @@ type Append = Record<'headers' | 'footers' | 'scriptSetups', string[]>
 
 export function MarkdownTransform(): Plugin {
   return {
-    name: 'element-plus-md-transform',
+    name: 'lkq-element-plus-md-transform',
     enforce: 'pre',
     async transform(code, id) {
       if (!id.endsWith('.md')) return

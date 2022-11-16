@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { onMounted } from 'vue'
-import { ElMessageBox } from 'element-plus'
+import { ElMessageBox } from 'lkq-element-plus'
 import nprogress from 'nprogress'
 import dayjs from 'dayjs'
 import { isClient, useStorage, useToggle } from '@vueuse/core'
@@ -20,7 +20,7 @@ const [isSidebarOpen, toggleSidebar] = useToggle(false)
 const { hasSidebar } = useSidebar()
 const lang = useLang()
 
-const mirrorUrl = 'element-plus.gitee.io'
+const mirrorUrl = 'lkq-element-plus.gitee.io'
 const isMirrorUrl = () => {
   if (!isClient) return
   return window.location.hostname === mirrorUrl
@@ -89,7 +89,7 @@ onMounted(async () => {
         }
       )
       const toLang = '/zh-CN/'
-      location.href = `https://element-plus.gitee.io${toLang}${location.pathname.slice(
+      location.href = `https://lkq-element-plus.gitee.io${toLang}${location.pathname.slice(
         toLang.length
       )}`
     } catch {

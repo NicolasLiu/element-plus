@@ -41,11 +41,11 @@
 
 <script lang="ts" setup>
 import { computed, inject } from 'vue'
-import { ElIcon } from '@element-plus/components/icon'
-import { FOCUS_TRAP_INJECTION_KEY } from '@element-plus/components/focus-trap'
-import { useDraggable, useLocale } from '@element-plus/hooks'
-import { CloseComponents, composeRefs } from '@element-plus/utils'
-import { dialogInjectionKey } from '@element-plus/tokens'
+import { ElIcon } from '@lkq-element-plus/components/icon'
+import { FOCUS_TRAP_INJECTION_KEY } from '@lkq-element-plus/components/focus-trap'
+import { useDraggable, useLocale } from '@lkq-element-plus/hooks'
+import { CloseComponents, composeRefs } from '@lkq-element-plus/utils'
+import { dialogInjectionKey } from '@lkq-element-plus/tokens'
 import { dialogContentEmits, dialogContentProps } from './dialog-content'
 
 const { t } = useLocale()

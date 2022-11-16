@@ -43,9 +43,9 @@ import {
   ref,
   watch,
 } from 'vue'
-import { iconPropType } from '@element-plus/utils'
-import { useLocale, useNamespace } from '@element-plus/hooks'
-import { formItemContextKey } from '@element-plus/tokens'
+import { iconPropType } from '@lkq-element-plus/utils'
+import { useLocale, useNamespace } from '@lkq-element-plus/hooks'
+import { formItemContextKey } from '@lkq-element-plus/tokens'
 import TreeStore from './model/tree-store'
 import { getNodeKey as getNodeKeyUtil, handleCurrentChange } from './model/util'
 import ElTreeNode from './tree-node.vue'
@@ -55,7 +55,7 @@ import { useKeydown } from './model/useKeydown'
 import type Node from './model/node'
 
 import type { ComponentInternalInstance, PropType } from 'vue'
-import type { Nullable } from '@element-plus/utils'
+import type { Nullable } from '@lkq-element-plus/utils'
 import type {
   TreeComponentProps,
   TreeData,

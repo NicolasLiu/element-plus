@@ -1,4 +1,4 @@
-import { withInstall, withNoopInstall } from '@element-plus/utils'
+import { withInstall, withNoopInstall } from '@lkq-element-plus/utils'
 import Timeline from './src/timeline'
 import TimelineItem from './src/timeline-item.vue'
 

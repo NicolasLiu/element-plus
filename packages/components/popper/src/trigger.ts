@@ -1,6 +1,6 @@
-import { buildProps, definePropType } from '@element-plus/utils'
+import { buildProps, definePropType } from '@lkq-element-plus/utils'
 
-import type { Measurable } from '@element-plus/tokens'
+import type { Measurable } from '@lkq-element-plus/tokens'
 import type Trigger from './trigger.vue'
 
 export const popperTriggerProps = buildProps({

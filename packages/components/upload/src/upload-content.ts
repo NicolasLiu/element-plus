@@ -1,5 +1,5 @@
 import { NOOP } from '@vue/shared'
-import { buildProps, definePropType } from '@element-plus/utils'
+import { buildProps, definePropType } from '@lkq-element-plus/utils'
 import { uploadBaseProps } from './upload'
 
 import type { ExtractPropTypes } from 'vue'

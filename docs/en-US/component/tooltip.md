@@ -54,7 +54,7 @@ In addition to basic usages, there are some attributes that allow you to customi
 
 `disabled` attribute allows you to disable `tooltip`. You just need set it to `true`.
 
-In fact, Tooltip is an extension based on [ElPopper](https://github.com/element-plus/element-plus/tree/dev/packages/components/popper), you can use any attribute that are allowed in ElPopper.
+In fact, Tooltip is an extension based on [ElPopper](https://github.com/lkq-element-plus/lkq-element-plus/tree/dev/packages/components/popper), you can use any attribute that are allowed in ElPopper.
 
 :::demo
 

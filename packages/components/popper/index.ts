@@ -1,4 +1,4 @@
-import { withInstall } from '@element-plus/utils'
+import { withInstall } from '@lkq-element-plus/utils'
 import Popper from './src/popper.vue'
 
 import ElPopperArrow from './src/arrow.vue'

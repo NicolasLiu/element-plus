@@ -17,9 +17,9 @@
 
 <script lang="ts" setup>
 import { computed, ref, watch } from 'vue'
-import { ElIcon } from '@element-plus/components/icon'
-import { useNamespace } from '@element-plus/hooks'
-import { addUnit, isNumber, isString } from '@element-plus/utils'
+import { ElIcon } from '@lkq-element-plus/components/icon'
+import { useNamespace } from '@lkq-element-plus/hooks'
+import { addUnit, isNumber, isString } from '@lkq-element-plus/utils'
 import { avatarEmits, avatarProps } from './avatar'
 
 import type { CSSProperties } from 'vue'

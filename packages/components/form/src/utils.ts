@@ -1,7 +1,7 @@
 import { computed, ref } from 'vue'
-import { debugWarn, ensureArray } from '@element-plus/utils'
-import type { Arrayable } from '@element-plus/utils'
-import type { FormItemContext } from '@element-plus/tokens'
+import { debugWarn, ensureArray } from '@lkq-element-plus/utils'
+import type { Arrayable } from '@lkq-element-plus/utils'
+import type { FormItemContext } from '@lkq-element-plus/tokens'
 import type { FormItemProp } from './form-item'
 
 const SCOPE = 'ElForm'

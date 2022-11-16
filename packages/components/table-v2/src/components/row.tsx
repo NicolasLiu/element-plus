@@ -7,7 +7,7 @@ import {
   ref,
   unref,
 } from 'vue'
-import { isArray, isFunction, isNumber } from '@element-plus/utils'
+import { isArray, isFunction, isNumber } from '@lkq-element-plus/utils'
 import { tableV2RowProps } from '../row'
 import { TableV2InjectionKey } from '../tokens'
 import { placeholderSign } from '../private'

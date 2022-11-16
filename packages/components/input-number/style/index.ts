@@ -1,3 +1,3 @@
-import '@element-plus/components/base/style'
-import '@element-plus/theme-chalk/src/input-number.scss'
-import '@element-plus/components/input/style'
+import '@lkq-element-plus/components/base/style'
+import '@lkq-element-plus/theme-chalk/src/input-number.scss'
+import '@lkq-element-plus/components/input/style'

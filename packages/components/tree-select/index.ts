@@ -1,7 +1,7 @@
 import TreeSelect from './src/tree-select.vue'
 
 import type { App } from 'vue'
-import type { SFCWithInstall } from '@element-plus/utils'
+import type { SFCWithInstall } from '@lkq-element-plus/utils'
 
 TreeSelect.install = (app: App): void => {
   app.component(TreeSelect.name, TreeSelect)

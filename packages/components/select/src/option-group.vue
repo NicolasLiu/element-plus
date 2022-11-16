@@ -23,7 +23,7 @@ import {
   toRefs,
   watch,
 } from 'vue'
-import { useNamespace } from '@element-plus/hooks'
+import { useNamespace } from '@lkq-element-plus/hooks'
 import { selectGroupKey, selectKey } from './token'
 
 export default defineComponent({

@@ -1,9 +1,9 @@
-import { provideGlobalConfig } from '@element-plus/hooks'
-import { INSTALLED_KEY } from '@element-plus/constants'
+import { provideGlobalConfig } from '@lkq-element-plus/hooks'
+import { INSTALLED_KEY } from '@lkq-element-plus/constants'
 import { version } from './version'
 
 import type { App, Plugin } from '@vue/runtime-core'
-import type { ConfigProviderContext } from '@element-plus/tokens'
+import type { ConfigProviderContext } from '@lkq-element-plus/tokens'
 
 export const makeInstaller = (components: Plugin[] = []) => {
   const install = (app: App, options?: ConfigProviderContext) => {

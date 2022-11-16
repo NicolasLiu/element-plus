@@ -1,9 +1,9 @@
 import { nextTick } from 'vue'
 import { mount } from '@vue/test-utils'
 import { describe, expect, test, vi } from 'vitest'
-import { TypeComponentsMap } from '@element-plus/utils'
-import { EVENT_CODE } from '@element-plus/constants'
-import { useZIndex } from '@element-plus/hooks'
+import { TypeComponentsMap } from '@lkq-element-plus/utils'
+import { EVENT_CODE } from '@lkq-element-plus/constants'
+import { useZIndex } from '@lkq-element-plus/hooks'
 import { notificationTypes } from '../src/notification'
 import Notification from '../src/notification.vue'
 

@@ -16,8 +16,8 @@ If you don’t care about the bundle size so much, it’s more convenient to use
 ```typescript
 // main.ts
 import { createApp } from 'vue'
-import ElementPlus from 'element-plus'
-import 'element-plus/dist/index.css'
+import ElementPlus from 'lkq-element-plus'
+import 'lkq-element-plus/dist/index.css'
 import App from './App.vue'
 
 const app = createApp(App)
@@ -35,7 +35,7 @@ If you use volar, please add the global component type definition to `compilerOp
 {
   "compilerOptions": {
     // ...
-    "types": ["element-plus/global"]
+    "types": ["lkq-element-plus/global"]
   }
 }
 ```
@@ -105,8 +105,8 @@ For more bundlers ([Rollup](https://rollupjs.org/), [Vue CLI](https://cli.vuejs.
 Element Plus provides out of box [Tree Shaking](https://webpack.js.org/guides/tree-shaking/)
 functionalities based on ES Module.
 
-But you need install [unplugin-element-plus](https://github.com/element-plus/unplugin-element-plus) for style import.
-And refer to the [docs](https://github.com/element-plus/unplugin-element-plus#readme) for how to configure it.
+But you need install [unplugin-element-plus](https://github.com/lkq-element-plus/unplugin-element-plus) for style import.
+And refer to the [docs](https://github.com/lkq-element-plus/unplugin-element-plus#readme) for how to configure it.
 
 > App.vue
 
@@ -115,7 +115,7 @@ And refer to the [docs](https://github.com/element-plus/unplugin-element-plus#re
   <el-button>I am ElButton</el-button>
 </template>
 <script>
-  import { ElButton } from 'element-plus'
+  import { ElButton } from 'lkq-element-plus'
   export default {
     components: { ElButton },
   }
@@ -140,16 +140,16 @@ You need to manually import the styles if you're using `unplugin-element-plus` a
 Example:
 
 ```ts
-import 'element-plus/es/components/message/style/css'
-import { ElMessage } from 'element-plus'
+import 'lkq-element-plus/es/components/message/style/css'
+import { ElMessage } from 'lkq-element-plus'
 ```
 
 :::
 
 ## Starter Template
 
-We provide a [Vite Template](https://github.com/element-plus/element-plus-vite-starter).
-For Laravel users we have a [Laravel Template](https://github.com/element-plus/element-plus-in-laravel-starter).
+We provide a [Vite Template](https://github.com/lkq-element-plus/lkq-element-plus-vite-starter).
+For Laravel users we have a [Laravel Template](https://github.com/lkq-element-plus/lkq-element-plus-in-laravel-starter).
 
 ## Global Configuration
 
@@ -161,7 +161,7 @@ Full import:
 
 ```ts
 import { createApp } from 'vue'
-import ElementPlus from 'element-plus'
+import ElementPlus from 'lkq-element-plus'
 import App from './App.vue'
 
 const app = createApp(App)
@@ -179,7 +179,7 @@ On-demand:
 
 <script>
 import { defineComponent } from 'vue'
-import { ElConfigProvider } from 'element-plus'
+import { ElConfigProvider } from 'lkq-element-plus'
 
 export default defineComponent({
   components: {

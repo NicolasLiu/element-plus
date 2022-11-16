@@ -19,7 +19,7 @@
 
 <script lang="ts" setup>
 import { ref } from 'vue'
-import { ElTable } from 'element-plus'
+import { ElTable } from 'lkq-element-plus'
 
 interface User {
   date: string

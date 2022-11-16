@@ -1,17 +1,24 @@
 // @ts-nocheck
-import { buildProps, definePropType, iconPropType } from '@element-plus/utils'
-import { EVENT_CODE } from '@element-plus/constants'
-import { createCollectionWithScope } from '@element-plus/components/collection'
+import {
+  buildProps,
+  definePropType,
+  iconPropType,
+} from '@lkq-element-plus/utils'
+import { EVENT_CODE } from '@lkq-element-plus/constants'
+import { createCollectionWithScope } from '@lkq-element-plus/components/collection'
 import {
   useTooltipContentProps,
   useTooltipTriggerProps,
-} from '@element-plus/components/tooltip'
+} from '@lkq-element-plus/components/tooltip'
 
 import type { Options } from '@popperjs/core'
-import type { ButtonProps, ButtonType } from '@element-plus/components/button'
-import type { Placement } from '@element-plus/components/popper'
+import type {
+  ButtonProps,
+  ButtonType,
+} from '@lkq-element-plus/components/button'
+import type { Placement } from '@lkq-element-plus/components/popper'
 import type { ComponentInternalInstance, ComputedRef } from 'vue'
-import type { Nullable } from '@element-plus/utils'
+import type { Nullable } from '@lkq-element-plus/utils'
 
 export interface IElDropdownInstance {
   instance?: ComponentInternalInstance
